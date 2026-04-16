@@ -1,0 +1,10 @@
+# Facebook-innlogging (privat)
+fb_session/
+
+# Midlertidige filer
+__pycache__/
+*.pyc
+
+# Eksisterende frontend-prosjekt (valgfritt)
+node_modules/
+dist/
