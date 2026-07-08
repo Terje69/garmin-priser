@@ -142,16 +142,31 @@ def klassifiser_modell(tittel: str) -> str:
 # ---------------------------------------------------------------------------
 
 def sjekk_robots() -> None:
-    """Stopper hele kjøringen hvis robots.txt ikke lenger tillater søkesiden."""
-    parser = urllib.robotparser.RobotFileParser()
-    parser.set_url(ROBOTS_URL)
+    """Stopper kjøringen hvis robots.txt-reglene ikke lenger tillater søkesiden.
+
+    Viktig detalj: Pythons innebygde robotparser tolker feilkoder (403/500)
+    som «alt er forbudt». Det ville stoppet oss selv når reglene faktisk
+    tillater søket. Derfor henter vi filen selv og håndhever kun regler vi
+    faktisk får lest (HTTP 200). Får vi ikke lest den, sier vi fra i loggen
+    og fortsetter forsiktig - selve søket feiler uansett tydelig hvis
+    finn.no avviser oss.
+    """
     try:
-        parser.read()
+        respons = requests.get(ROBOTS_URL, headers=HEADERS, timeout=30)
     except Exception as feil:
-        print(f"Advarsel: fikk ikke lest robots.txt ({feil}) - fortsetter forsiktig.")
+        print(f"Advarsel: fikk ikke hentet robots.txt ({feil}) - fortsetter forsiktig.")
         return
+
+    if respons.status_code != 200:
+        print(f"Advarsel: robots.txt svarte HTTP {respons.status_code} - "
+              "kan ikke verifisere reglene, fortsetter forsiktig.")
+        return
+
+    parser = urllib.robotparser.RobotFileParser()
+    parser.parse(respons.text.splitlines())
     if not parser.can_fetch(HEADERS["User-Agent"], SOKE_URL + "?q=garmin"):
         sys.exit("STOPP: robots.txt tillater ikke lenger søkesiden. Ingen data hentet.")
+    print("robots.txt lest - søkesiden er fortsatt tillatt.")
 
 
 def hent_side(sokeord: str, side: int) -> str:
