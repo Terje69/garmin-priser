@@ -1,0 +1,23 @@
+{
+  "_forklaring": "Dette er innstillingene for scraperen. Endre verdiene under, lagre, og last opp til GitHub - neste kjøring bruker de nye verdiene.",
+
+  "_om_sokeord": "Listen over søk som kjøres mot finn.no/torget. Legg til eller fjern linjer etter behov. Husk komma mellom linjene, men IKKE etter den siste.",
+  "sokeord": [
+    "Garmin klokke",
+    "Garmin Fenix",
+    "Garmin Forerunner"
+  ],
+
+  "_om_sider": "Hvor mange resultatsider som hentes per søkeord (ca. 50 annonser per side). Høyere tall = flere annonser, men flere forespørsler mot finn.no.",
+  "maks_sider_per_sok": 4,
+
+  "_om_pause": "Antall sekunder pause mellom hver forespørsel til finn.no. Ikke sett denne lavere enn 2.",
+  "pause_sekunder": 2.5,
+
+  "_om_kostnader": "Brukes i kupp-beregningen på dashbordet: margin = medianpris - annonsepris - frakt - fikskostnad.",
+  "frakt_kr": 80,
+  "fikskostnad_kr": 150,
+
+  "_om_minstepris": "Annonser billigere enn dette regnes som tilbehør/feiloppføringer og holdes utenfor prisstatistikk og kupplisten (de vises fortsatt under 'Alle annonser').",
+  "minste_troverdige_pris_kr": 500
+}

@@ -1,10 +1,10 @@
-# Facebook-innlogging (privat)
-fb_session/
-
-# Midlertidige filer
+# Midlertidige Python-filer
 __pycache__/
 *.pyc
 
-# Eksisterende frontend-prosjekt (valgfritt)
+# Lokale Claude-innstillinger
+.claude/
+
+# Node-prosjekt (romplanleggeren) - fjern disse linjene hvis den skal med i repoet
 node_modules/
 dist/

@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Garmin-priser</title>
+<!-- Chart.js for prishistorikk-grafen -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.9/dist/chart.umd.min.js"></script>
+<style>
+/* ============================================================
+   Fargepalett og grunnstiler (lys og mørk modus)
+   ============================================================ */
+:root {
+  --flate: #fcfcfb;         /* kort/panel-bakgrunn */
+  --side: #f9f9f7;          /* sidebakgrunn */
+  --tekst: #0b0b0b;
+  --tekst-2: #52514e;
+  --tekst-svak: #898781;
+  --strek: #e1e0d9;
+  --kant: rgba(11,11,11,0.10);
+  --positiv: #006300;       /* grønn tekst for gevinst */
+  --negativ: #d03b3b;
+  --aksent: #2a78d6;
+  --aksent-svak: #cde2fb;
+  /* serie-farger til grafen (fast rekkefølge, validert palett) */
+  --s1: #2a78d6; --s2: #1baf7a; --s3: #eda100; --s4: #008300;
+  --s5: #4a3aa7; --s6: #e34948; --s7: #e87ba4; --s8: #eb6834;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --flate: #1a1a19;
+    --side: #0d0d0d;
+    --tekst: #ffffff;
+    --tekst-2: #c3c2b7;
+    --tekst-svak: #898781;
+    --strek: #2c2c2a;
+    --kant: rgba(255,255,255,0.10);
+    --positiv: #0ca30c;
+    --negativ: #e66767;
+    --aksent: #3987e5;
+    --aksent-svak: #184f95;
+    --s1: #3987e5; --s2: #199e70; --s3: #c98500; --s4: #008300;
+    --s5: #9085e9; --s6: #e66767; --s7: #d55181; --s8: #d95926;
+  }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--side);
+  color: var(--tekst);
+  font-size: 15px;
+  line-height: 1.45;
+  /* plass til bunnmenyen + "safe area" på telefoner med hakk */
+  padding-bottom: calc(64px + env(safe-area-inset-bottom));
+}
+
+header.topp {
+  padding: 14px 16px 10px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+header.topp h1 { font-size: 19px; font-weight: 700; }
+header.topp .oppdatert { font-size: 12px; color: var(--tekst-svak); text-align: right; }
+
+main { padding: 0 12px; max-width: 720px; margin: 0 auto; }
+
+/* ---- Faner (bunnmeny, lett å nå med tommelen) ---- */
+nav.faner {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  display: flex;
+  background: var(--flate);
+  border-top: 1px solid var(--strek);
+  padding-bottom: env(safe-area-inset-bottom);
+  z-index: 10;
+}
+nav.faner button {
+  flex: 1;
+  border: 0;
+  background: none;
+  color: var(--tekst-svak);
+  font: inherit;
+  font-size: 11px;
+  padding: 8px 2px 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+nav.faner button .ikon { font-size: 20px; line-height: 1; }
+nav.faner button.aktiv { color: var(--aksent); font-weight: 600; }
+
+.fane { display: none; }
+.fane.aktiv { display: block; }
+
+/* ---- Kort og lister ---- */
+.kort {
+  background: var(--flate);
+  border: 1px solid var(--kant);
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+.kort a.tittel {
+  color: var(--tekst);
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 2px;
+}
+.meta { font-size: 12.5px; color: var(--tekst-svak); }
+.modell-merke {
+  display: inline-block;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--aksent);
+  background: color-mix(in srgb, var(--aksent) 12%, transparent);
+  border-radius: 6px;
+  padding: 1px 7px;
+  margin-bottom: 5px;
+}
+.pris-rad {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 6px;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.pris { font-size: 19px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.margin-pos { color: var(--positiv); font-weight: 700; }
+.margin-neg { color: var(--negativ); font-weight: 700; }
+
+.finn-knapp {
+  display: inline-block;
+  background: var(--aksent);
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 14px;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+/* ---- Filterrad ---- */
+.filtre {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: 4px 0 12px;
+}
+.filtre input, .filtre select,
+form.kjopsskjema input, form.kjopsskjema select {
+  font: inherit;
+  font-size: 14px;
+  padding: 8px 10px;
+  border: 1px solid var(--strek);
+  border-radius: 8px;
+  background: var(--flate);
+  color: var(--tekst);
+  min-width: 0;
+}
+.filtre input[type="search"] { flex: 1 1 100%; }
+.filtre input[type="number"] { width: 90px; flex: 1; }
+.filtre select { flex: 1; }
+.filtre label.avkryssing {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 13px; color: var(--tekst-2);
+  padding: 6px 2px;
+}
+
+/* ---- Modell-chips (fungerer som tegnforklaring for grafen) ---- */
+.chips { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+.chips button {
+  font: inherit; font-size: 13px;
+  border: 1px solid var(--strek);
+  background: var(--flate);
+  color: var(--tekst-2);
+  border-radius: 999px;
+  padding: 5px 12px;
+  cursor: pointer;
+  display: flex; align-items: center; gap: 6px;
+}
+.chips button .prikk {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: var(--strek);
+}
+.chips button.valgt { border-color: var(--tekst-2); color: var(--tekst); font-weight: 600; }
+
+.graf-ramme {
+  background: var(--flate);
+  border: 1px solid var(--kant);
+  border-radius: 12px;
+  padding: 10px 6px 4px;
+  height: 320px;
+}
+
+/* ---- Tabell ---- */
+table.enkel {
+  width: 100%; border-collapse: collapse; font-size: 13px;
+  background: var(--flate); border-radius: 12px; overflow: hidden;
+  border: 1px solid var(--kant);
+}
+table.enkel th, table.enkel td {
+  text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--strek);
+}
+table.enkel td.tall, table.enkel th.tall {
+  text-align: right; font-variant-numeric: tabular-nums;
+}
+table.enkel th { color: var(--tekst-svak); font-weight: 600; font-size: 12px; }
+
+/* ---- Mine kjøp ---- */
+.hero {
+  background: var(--flate);
+  border: 1px solid var(--kant);
+  border-radius: 12px;
+  padding: 14px;
+  margin-bottom: 12px;
+  display: flex;
+  gap: 10px;
+}
+.hero > div { flex: 1; }
+.hero .verdi { font-size: 22px; font-weight: 700; }
+.hero .navn { font-size: 12px; color: var(--tekst-svak); }
+
+form.kjopsskjema { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+form.kjopsskjema .full { grid-column: 1 / -1; }
+form.kjopsskjema button {
+  grid-column: 1 / -1;
+  font: inherit; font-weight: 600;
+  background: var(--aksent); color: #fff;
+  border: 0; border-radius: 8px; padding: 10px;
+  cursor: pointer;
+}
+.kjop-handling {
+  background: none; border: 0; color: var(--aksent);
+  font: inherit; font-size: 13px; cursor: pointer; padding: 4px 8px 4px 0;
+}
+.kjop-handling.slett { color: var(--negativ); }
+
+.smaatekst { font-size: 12px; color: var(--tekst-svak); margin: 10px 2px 20px; }
+.tom { text-align: center; color: var(--tekst-svak); padding: 40px 20px; }
+.seksjonstittel { font-size: 15px; font-weight: 700; margin: 16px 2px 8px; }
+.lenkeknapp {
+  background: none; border: 1px solid var(--strek); border-radius: 8px;
+  color: var(--tekst-2); font: inherit; font-size: 13px;
+  padding: 7px 12px; cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<header class="topp">
+  <h1>Garmin-priser</h1>
+  <div class="oppdatert" id="oppdatert"></div>
+</header>
+
+<main>
+  <!-- ============ Fane 1: Kupp ============ -->
+  <section class="fane" id="fane-kupp">
+    <div id="kupp-liste"></div>
+    <p class="smaatekst">
+      Kupp = aktive annonser priset under 10.-persentilen for sin modell.
+      Margin = medianpris for modellen − annonsepris − frakt − fikskostnad.
+      ROI = margin delt på totalt utlegg. Modeller med færre enn 4 aktive
+      annonser vises ikke (for lite prisgrunnlag).
+    </p>
+  </section>
+
+  <!-- ============ Fane 2: Alle annonser ============ -->
+  <section class="fane" id="fane-alle">
+    <div class="filtre">
+      <input type="search" id="sok" placeholder="Søk i tittel, modell eller sted …">
+      <select id="filter-modell"><option value="">Alle modeller</option></select>
+      <input type="number" id="pris-min" placeholder="Min kr" inputmode="numeric">
+      <input type="number" id="pris-maks" placeholder="Maks kr" inputmode="numeric">
+      <label class="avkryssing"><input type="checkbox" id="vis-inaktive"> Vis solgte/fjernede</label>
+    </div>
+    <div class="meta" id="alle-antall" style="margin-bottom:8px"></div>
+    <div id="alle-liste"></div>
+  </section>
+
+  <!-- ============ Fane 3: Prishistorikk ============ -->
+  <section class="fane" id="fane-historikk">
+    <div class="chips" id="modell-chips"></div>
+    <div class="graf-ramme"><canvas id="graf"></canvas></div>
+    <div style="margin-top:10px">
+      <button class="lenkeknapp" id="vis-tabell">Vis som tabell</button>
+    </div>
+    <div id="historikk-tabell" style="display:none; margin-top:10px"></div>
+    <p class="smaatekst">Medianpris per modell, ett punkt per dag. Basert på aktive annonser.</p>
+  </section>
+
+  <!-- ============ Fane 4: Mine kjøp ============ -->
+  <section class="fane" id="fane-kjop">
+    <div class="hero">
+      <div><div class="verdi" id="sum-fortjeneste">0 kr</div><div class="navn">Realisert fortjeneste</div></div>
+      <div><div class="verdi" id="sum-lager">0 kr</div><div class="navn">Bundet i usolgte</div></div>
+      <div><div class="verdi" id="sum-antall">0</div><div class="navn">Kjøp totalt</div></div>
+    </div>
+
+    <div class="kort">
+      <form class="kjopsskjema" id="kjopsskjema">
+        <input class="full" id="k-beskrivelse" placeholder="Hva kjøpte du? (f.eks. Fenix 7 Sapphire)" required>
+        <input id="k-modell" placeholder="Modell" list="modell-forslag">
+        <datalist id="modell-forslag"></datalist>
+        <select id="k-kilde">
+          <option>FINN</option>
+          <option>Facebook Marketplace</option>
+          <option>Annet</option>
+        </select>
+        <input id="k-kjopspris" type="number" placeholder="Kjøpspris kr" inputmode="numeric" required>
+        <input id="k-salgspris" type="number" placeholder="Salgspris kr" inputmode="numeric">
+        <select id="k-status">
+          <option>Kjøpt</option>
+          <option>Til salgs</option>
+          <option>Solgt</option>
+        </select>
+        <input id="k-dato" type="date">
+        <button type="submit" id="k-lagre">Legg til kjøp</button>
+      </form>
+    </div>
+
+    <div id="kjop-liste"></div>
+
+    <div style="display:flex; gap:8px; margin-top:14px">
+      <button class="lenkeknapp" id="eksporter">Kopier sikkerhetskopi</button>
+      <button class="lenkeknapp" id="importer">Lim inn sikkerhetskopi</button>
+    </div>
+    <p class="smaatekst">
+      Kjøpene lagres kun lokalt i nettleseren på denne enheten (localStorage).
+      Ta en sikkerhetskopi innimellom – den kan limes inn på en annen enhet.
+    </p>
+  </section>
+</main>
+
+<nav class="faner">
+  <button data-fane="kupp"><span class="ikon">&#128176;</span>Kupp</button>
+  <button data-fane="alle"><span class="ikon">&#128203;</span>Alle</button>
+  <button data-fane="historikk"><span class="ikon">&#128200;</span>Historikk</button>
+  <button data-fane="kjop"><span class="ikon">&#128188;</span>Mine kjøp</button>
+</nav>
+
+<!-- Data generert av scraperen (mangler filen, viser vi en hjelpetekst) -->
+<script src="data/data.js"></script>
+<script>
+"use strict";
+
+/* ============================================================
+   Datagrunnlag
+   ============================================================ */
+const DATA = window.FINN_DATA || null;
+const HISTORIKK = window.FINN_HISTORIKK || {};
+const ANNONSER = DATA ? Object.values(DATA.annonser || {}) : [];
+const KOST = (DATA && DATA.kostnader) || { frakt_kr: 80, fikskostnad_kr: 150, minste_troverdige_pris_kr: 500 };
+const EKSTRA_KOST = KOST.frakt_kr + KOST.fikskostnad_kr;
+
+function kr(n) {
+  return Math.round(n).toLocaleString("nb-NO") + " kr";
+}
+
+// Hvor gammel er annonsen? Bruker publiseringsestimatet, ellers først-sett.
+function alderTekst(a) {
+  const d = a.publisert || (a.forst_sett || "").slice(0, 10);
+  if (!d) return "";
+  const dager = Math.floor((Date.now() - new Date(d + "T12:00:00")) / 86400000);
+  if (dager <= 0) return "i dag";
+  if (dager === 1) return "i går";
+  if (dager < 30) return dager + " d. siden";
+  return Math.round(dager / 30) + " mnd. siden";
+}
+
+/* Prisstatistikk per modell, beregnet fra aktive annonser.
+   Tilbehør, "Annet" og mistenkelig billige oppføringer holdes utenfor
+   (samme regler som i scraperen). */
+function beregnStatistikk() {
+  const perModell = {};
+  for (const a of ANNONSER) {
+    if (!a.aktiv || a.pris == null) continue;
+    if (a.modell === "Tilbehør" || a.modell === "Annet" || a.modell === "Kjøpes") continue;
+    if (a.pris < KOST.minste_troverdige_pris_kr) continue;
+    (perModell[a.modell] = perModell[a.modell] || []).push(a.pris);
+  }
+  const stat = {};
+  for (const [modell, priser] of Object.entries(perModell)) {
+    priser.sort((x, y) => x - y);
+    stat[modell] = {
+      antall: priser.length,
+      median: persentil(priser, 0.5),
+      p10: persentil(priser, 0.1),
+    };
+  }
+  return stat;
+}
+
+function persentil(sortert, andel) {
+  if (!sortert.length) return 0;
+  const pos = (sortert.length - 1) * andel;
+  const lav = Math.floor(pos), hoy = Math.min(lav + 1, sortert.length - 1);
+  return Math.round(sortert[lav] * (1 - (pos - lav)) + sortert[hoy] * (pos - lav));
+}
+
+const STATISTIKK = beregnStatistikk();
+
+/* ============================================================
+   Fane-navigasjon
+   ============================================================ */
+const faneKnapper = document.querySelectorAll("nav.faner button");
+function visFane(navn) {
+  document.querySelectorAll(".fane").forEach(f => f.classList.remove("aktiv"));
+  faneKnapper.forEach(b => b.classList.toggle("aktiv", b.dataset.fane === navn));
+  document.getElementById("fane-" + navn).classList.add("aktiv");
+  localStorage.setItem("garmin_fane", navn);
+  if (navn === "historikk") tegnGraf(); // grafen må tegnes når den er synlig
+}
+faneKnapper.forEach(b => b.addEventListener("click", () => visFane(b.dataset.fane)));
+
+/* ============================================================
+   Fane 1: Kupp
+   ============================================================ */
+function byggKupp() {
+  const beholder = document.getElementById("kupp-liste");
+
+  if (!DATA) {
+    beholder.innerHTML = '<div class="tom">Ingen data ennå.<br>Kjør workflowen «Skrap finn.no» under Actions på GitHub, så dukker annonsene opp her.</div>';
+    return;
+  }
+
+  const kupp = [];
+  for (const a of ANNONSER) {
+    const stat = STATISTIKK[a.modell];
+    if (!a.aktiv || a.pris == null || !stat) continue;
+    if (stat.antall < 4) continue;                       // for lite prisgrunnlag
+    if (a.pris < KOST.minste_troverdige_pris_kr) continue;
+    if (a.pris > stat.p10) continue;                     // ikke billig nok
+    const margin = stat.median - a.pris - EKSTRA_KOST;
+    if (margin <= 0) continue;
+    const roi = margin / (a.pris + EKSTRA_KOST);
+    kupp.push({ a, stat, margin, roi });
+  }
+  kupp.sort((x, y) => y.margin - x.margin);
+
+  if (!kupp.length) {
+    beholder.innerHTML = '<div class="tom">Ingen kupp akkurat nå.<br>Sjekk igjen etter neste oppdatering!</div>';
+    return;
+  }
+
+  beholder.innerHTML = kupp.map(({ a, stat, margin, roi }) => `
+    <div class="kort">
+      <span class="modell-merke">${esc(a.modell)}</span>
+      <a class="tittel" href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.tittel)}</a>
+      <div class="meta">${esc(a.sted || "Ukjent sted")} · ${alderTekst(a)} · median ${kr(stat.median)} (${stat.antall} annonser)</div>
+      <div class="pris-rad">
+        <span class="pris">${kr(a.pris)}</span>
+        <span><span class="margin-pos">+${kr(margin)}</span> <span class="meta">margin · ROI ${(roi * 100).toFixed(0)} %</span></span>
+      </div>
+      <a class="finn-knapp" href="${esc(a.url)}" target="_blank" rel="noopener">Åpne på FINN →</a>
+    </div>`).join("");
+}
+
+// Enkel HTML-escaping så annonsetitler ikke kan rote til siden
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, c =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+/* ============================================================
+   Fane 2: Alle annonser
+   ============================================================ */
+function byggAlleFiltre() {
+  const modeller = [...new Set(ANNONSER.map(a => a.modell))].sort();
+  const velger = document.getElementById("filter-modell");
+  for (const m of modeller) {
+    const opt = document.createElement("option");
+    opt.value = opt.textContent = m;
+    velger.appendChild(opt);
+  }
+  ["sok", "filter-modell", "pris-min", "pris-maks", "vis-inaktive"].forEach(id =>
+    document.getElementById(id).addEventListener("input", byggAlle));
+}
+
+function byggAlle() {
+  const beholder = document.getElementById("alle-liste");
+  if (!DATA) {
+    beholder.innerHTML = '<div class="tom">Ingen data ennå.</div>';
+    return;
+  }
+  const sok = document.getElementById("sok").value.toLowerCase().trim();
+  const modell = document.getElementById("filter-modell").value;
+  const min = Number(document.getElementById("pris-min").value) || 0;
+  const maks = Number(document.getElementById("pris-maks").value) || Infinity;
+  const medInaktive = document.getElementById("vis-inaktive").checked;
+
+  const treff = ANNONSER.filter(a => {
+    if (!medInaktive && !a.aktiv) return false;
+    if (modell && a.modell !== modell) return false;
+    if (a.pris != null && (a.pris < min || a.pris > maks)) return false;
+    if (a.pris == null && (min > 0 || maks < Infinity)) return false;
+    if (sok && !(a.tittel + " " + a.modell + " " + (a.sted || "")).toLowerCase().includes(sok)) return false;
+    return true;
+  }).sort((x, y) =>
+    (y.publisert || y.forst_sett || "").localeCompare(x.publisert || x.forst_sett || ""));
+
+  document.getElementById("alle-antall").textContent = treff.length + " annonser";
+
+  beholder.innerHTML = treff.slice(0, 200).map(a => {
+    const prisEndring = (a.prishistorikk || []).length > 1
+      ? ` · satt ned fra ${kr(a.prishistorikk[0].pris)}` : "";
+    return `
+    <div class="kort" style="${a.aktiv ? "" : "opacity:.55"}">
+      <span class="modell-merke">${esc(a.modell)}</span>${a.aktiv ? "" : ' <span class="meta">(borte fra FINN)</span>'}
+      <a class="tittel" href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.tittel)}</a>
+      <div class="meta">${esc(a.sted || "Ukjent sted")} · ${alderTekst(a)}${prisEndring}</div>
+      <div class="pris-rad"><span class="pris">${a.pris != null ? kr(a.pris) : "—"}</span></div>
+    </div>`;
+  }).join("") + (treff.length > 200 ? '<div class="tom">Viser de 200 nyeste – bruk filtrene for å snevre inn.</div>' : "");
+}
+
+/* ============================================================
+   Fane 3: Prishistorikk (Chart.js)
+   ============================================================ */
+const SERIE_FARGER = ["--s1","--s2","--s3","--s4","--s5","--s6","--s7","--s8"];
+let graf = null;
+let valgteModeller = new Set();
+let modellFarge = {};   // fast modell -> farge-tildeling (endres ikke ved av/på)
+
+function cssVar(navn) {
+  return getComputedStyle(document.documentElement).getPropertyValue(navn).trim();
+}
+
+function historikkModeller() {
+  // Modeller sortert etter antall aktive annonser i siste snapshot
+  const datoer = Object.keys(HISTORIKK).sort();
+  if (!datoer.length) return [];
+  const siste = HISTORIKK[datoer[datoer.length - 1]];
+  return Object.entries(siste)
+    .sort((x, y) => y[1].antall - x[1].antall)
+    .map(([m]) => m)
+    .slice(0, 8); // maks 8 – like mange som validerte seriefarger
+}
+
+function byggChips() {
+  const modeller = historikkModeller();
+  // Fast fargetildeling etter posisjon i den sorterte listen –
+  // fargen følger modellen uansett hva som er skrudd av og på
+  modeller.forEach((m, i) => { modellFarge[m] = SERIE_FARGER[i]; });
+  valgteModeller = new Set(modeller.slice(0, 4)); // de 4 største er på som standard
+
+  const beholder = document.getElementById("modell-chips");
+  beholder.innerHTML = "";
+  for (const m of modeller) {
+    const knapp = document.createElement("button");
+    knapp.innerHTML = `<span class="prikk"></span>${esc(m)}`;
+    knapp.addEventListener("click", () => {
+      valgteModeller.has(m) ? valgteModeller.delete(m) : valgteModeller.add(m);
+      oppdaterChips();
+      tegnGraf();
+    });
+    knapp.dataset.modell = m;
+    beholder.appendChild(knapp);
+  }
+  oppdaterChips();
+}
+
+function oppdaterChips() {
+  document.querySelectorAll("#modell-chips button").forEach(b => {
+    const valgt = valgteModeller.has(b.dataset.modell);
+    b.classList.toggle("valgt", valgt);
+    b.querySelector(".prikk").style.background =
+      valgt ? cssVar(modellFarge[b.dataset.modell]) : "var(--strek)";
+  });
+}
+
+// Lite Chart.js-tillegg: skriver modellnavnet ved enden av hver linje
+// (maks 4 valgte serier, så det er plass)
+const endeEtiketter = {
+  id: "endeEtiketter",
+  afterDatasetsDraw(chart) {
+    if (chart.data.datasets.length > 4) return;
+    const ctx = chart.ctx;
+    ctx.save();
+    ctx.font = "600 11px system-ui, sans-serif";
+    const plasseringer = [];
+    chart.data.datasets.forEach((ds, i) => {
+      const meta = chart.getDatasetMeta(i);
+      const punkter = meta.data.filter((p, idx) => ds.data[idx] != null);
+      if (!punkter.length) return;
+      const siste = punkter[punkter.length - 1];
+      plasseringer.push({ navn: ds.label, farge: ds.borderColor, x: siste.x, y: siste.y });
+    });
+    // Dytt etiketter fra hverandre hvis de kolliderer
+    plasseringer.sort((a, b) => a.y - b.y);
+    for (let i = 1; i < plasseringer.length; i++) {
+      if (plasseringer[i].y - plasseringer[i - 1].y < 13) {
+        plasseringer[i].y = plasseringer[i - 1].y + 13;
+      }
+    }
+    for (const p of plasseringer) {
+      ctx.fillStyle = p.farge;
+      ctx.fillText(p.navn, Math.min(p.x + 6, chart.chartArea.right - 60), p.y + 4);
+    }
+    ctx.restore();
+  },
+};
+
+function tegnGraf() {
+  if (typeof Chart === "undefined") return; // CDN utilgjengelig
+  const datoer = Object.keys(HISTORIKK).sort();
+  const lerret = document.getElementById("graf");
+  if (!lerret) return; // grafarealet er erstattet av "ingen historikk"-melding
+
+  if (!datoer.length) {
+    lerret.parentElement.innerHTML = '<div class="tom">Ingen historikk ennå – den bygges opp én dag av gangen.</div>';
+    return;
+  }
+
+  const datasett = [...valgteModeller].map(modell => ({
+    label: modell,
+    data: datoer.map(d => HISTORIKK[d][modell] ? HISTORIKK[d][modell].median : null),
+    borderColor: cssVar(modellFarge[modell]),
+    backgroundColor: cssVar(modellFarge[modell]),
+    borderWidth: 2,
+    pointRadius: datoer.length > 30 ? 0 : 3,
+    pointHitRadius: 12,   // lett å treffe med finger
+    spanGaps: true,
+    tension: 0.2,
+  }));
+
+  const akseFarge = cssVar("--tekst-svak");
+  const gridFarge = cssVar("--strek");
+  const etiketter = datoer.map(d => d.slice(5).split("-").reverse().join(".")); // "08.07"
+
+  if (graf) graf.destroy();
+  graf = new Chart(lerret, {
+    type: "line",
+    data: { labels: etiketter, datasets: datasett },
+    plugins: [endeEtiketter],
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      layout: { padding: { right: 62 } },  // plass til navne-etikettene
+      interaction: { mode: "nearest", intersect: false },
+      plugins: {
+        legend: { display: false },  // chipsene over grafen ER tegnforklaringen
+        tooltip: {
+          callbacks: { label: c => ` ${c.dataset.label}: ${kr(c.parsed.y)}` },
+        },
+      },
+      scales: {
+        x: { ticks: { color: akseFarge, maxTicksLimit: 6 }, grid: { display: false } },
+        y: {
+          ticks: { color: akseFarge, callback: v => v.toLocaleString("nb-NO") },
+          grid: { color: gridFarge },
+        },
+      },
+    },
+  });
+}
+
+function byggHistorikkTabell() {
+  const knapp = document.getElementById("vis-tabell");
+  const boks = document.getElementById("historikk-tabell");
+  knapp.addEventListener("click", () => {
+    const skjult = boks.style.display === "none";
+    boks.style.display = skjult ? "block" : "none";
+    knapp.textContent = skjult ? "Skjul tabell" : "Vis som tabell";
+    if (!skjult) return;
+    const datoer = Object.keys(HISTORIKK).sort().slice(-14).reverse();
+    const modeller = [...valgteModeller];
+    boks.innerHTML = `<table class="enkel"><thead><tr><th>Dato</th>${
+      modeller.map(m => `<th class="tall">${esc(m)}</th>`).join("")
+    }</tr></thead><tbody>${
+      datoer.map(d => `<tr><td>${d.slice(5).split("-").reverse().join(".")}</td>${
+        modeller.map(m => `<td class="tall">${HISTORIKK[d][m] ? HISTORIKK[d][m].median.toLocaleString("nb-NO") : "–"}</td>`).join("")
+      }</tr>`).join("")
+    }</tbody></table>`;
+  });
+}
+
+/* ============================================================
+   Fane 4: Mine kjøp (lagres i localStorage på enheten)
+   ============================================================ */
+const KJOP_NOKKEL = "garmin_mine_kjop_v1";
+let redigererId = null;
+
+function lesKjop() {
+  try { return JSON.parse(localStorage.getItem(KJOP_NOKKEL)) || []; }
+  catch { return []; }
+}
+function lagreKjop(liste) {
+  localStorage.setItem(KJOP_NOKKEL, JSON.stringify(liste));
+}
+
+function byggKjop() {
+  const liste = lesKjop();
+  const beholder = document.getElementById("kjop-liste");
+
+  // Nøkkeltall øverst
+  let fortjeneste = 0, lager = 0;
+  for (const k of liste) {
+    if (k.status === "Solgt" && k.salgspris) fortjeneste += k.salgspris - k.kjopspris;
+    else lager += k.kjopspris;
+  }
+  const fortjenesteEl = document.getElementById("sum-fortjeneste");
+  fortjenesteEl.textContent = (fortjeneste >= 0 ? "+" : "") + kr(fortjeneste);
+  fortjenesteEl.className = "verdi " + (fortjeneste >= 0 ? "margin-pos" : "margin-neg");
+  document.getElementById("sum-lager").textContent = kr(lager);
+  document.getElementById("sum-antall").textContent = liste.length;
+
+  if (!liste.length) {
+    beholder.innerHTML = '<div class="tom">Ingen kjøp registrert ennå.<br>Legg til det første i skjemaet over!</div>';
+    return;
+  }
+
+  beholder.innerHTML = liste.slice().reverse().map(k => {
+    const gevinst = k.status === "Solgt" && k.salgspris ? k.salgspris - k.kjopspris : null;
+    return `
+    <div class="kort">
+      <span class="modell-merke">${esc(k.modell || "Ukjent modell")}</span>
+      <span class="meta">${esc(k.status)} · ${esc(k.kilde)} · ${esc(k.dato || "")}</span>
+      <div style="font-weight:600">${esc(k.beskrivelse)}</div>
+      <div class="pris-rad">
+        <span class="meta">Kjøpt: <b>${kr(k.kjopspris)}</b>${k.salgspris ? " · Solgt: <b>" + kr(k.salgspris) + "</b>" : ""}</span>
+        ${gevinst != null ? `<span class="${gevinst >= 0 ? "margin-pos" : "margin-neg"}">${gevinst >= 0 ? "+" : ""}${kr(gevinst)}</span>` : ""}
+      </div>
+      <div style="margin-top:6px">
+        <button class="kjop-handling" data-rediger="${k.id}">Rediger</button>
+        <button class="kjop-handling slett" data-slett="${k.id}">Slett</button>
+      </div>
+    </div>`;
+  }).join("");
+
+  // Rediger: fyll skjemaet med eksisterende verdier
+  beholder.querySelectorAll("[data-rediger]").forEach(b => b.addEventListener("click", () => {
+    const k = lesKjop().find(x => x.id === b.dataset.rediger);
+    if (!k) return;
+    redigererId = k.id;
+    document.getElementById("k-beskrivelse").value = k.beskrivelse;
+    document.getElementById("k-modell").value = k.modell || "";
+    document.getElementById("k-kilde").value = k.kilde;
+    document.getElementById("k-kjopspris").value = k.kjopspris;
+    document.getElementById("k-salgspris").value = k.salgspris || "";
+    document.getElementById("k-status").value = k.status;
+    document.getElementById("k-dato").value = k.dato || "";
+    document.getElementById("k-lagre").textContent = "Lagre endringer";
+    document.getElementById("kjopsskjema").scrollIntoView({ behavior: "smooth" });
+  }));
+
+  beholder.querySelectorAll("[data-slett]").forEach(b => b.addEventListener("click", () => {
+    if (!confirm("Slette dette kjøpet?")) return;
+    lagreKjop(lesKjop().filter(x => x.id !== b.dataset.slett));
+    byggKjop();
+  }));
+}
+
+function byggKjopSkjema() {
+  document.getElementById("k-dato").value = new Date().toISOString().slice(0, 10);
+
+  // Forslag til modellnavn basert på det scraperen har sett
+  const forslag = document.getElementById("modell-forslag");
+  [...new Set(ANNONSER.map(a => a.modell))].sort().forEach(m => {
+    const opt = document.createElement("option");
+    opt.value = m;
+    forslag.appendChild(opt);
+  });
+
+  document.getElementById("kjopsskjema").addEventListener("submit", e => {
+    e.preventDefault();
+    const kjop = {
+      id: redigererId || String(Date.now()),
+      beskrivelse: document.getElementById("k-beskrivelse").value.trim(),
+      modell: document.getElementById("k-modell").value.trim(),
+      kilde: document.getElementById("k-kilde").value,
+      kjopspris: Number(document.getElementById("k-kjopspris").value),
+      salgspris: Number(document.getElementById("k-salgspris").value) || null,
+      status: document.getElementById("k-status").value,
+      dato: document.getElementById("k-dato").value,
+    };
+    const liste = lesKjop();
+    const idx = liste.findIndex(x => x.id === kjop.id);
+    if (idx >= 0) liste[idx] = kjop; else liste.push(kjop);
+    lagreKjop(liste);
+    redigererId = null;
+    e.target.reset();
+    document.getElementById("k-dato").value = new Date().toISOString().slice(0, 10);
+    document.getElementById("k-lagre").textContent = "Legg til kjøp";
+    byggKjop();
+  });
+
+  // Sikkerhetskopi ut og inn
+  document.getElementById("eksporter").addEventListener("click", async () => {
+    const tekst = JSON.stringify(lesKjop());
+    try {
+      await navigator.clipboard.writeText(tekst);
+      alert("Sikkerhetskopi kopiert til utklippstavlen!");
+    } catch {
+      prompt("Kopier teksten under manuelt:", tekst);
+    }
+  });
+  document.getElementById("importer").addEventListener("click", () => {
+    const tekst = prompt("Lim inn sikkerhetskopien her:");
+    if (!tekst) return;
+    try {
+      const liste = JSON.parse(tekst);
+      if (!Array.isArray(liste)) throw new Error();
+      lagreKjop(liste);
+      byggKjop();
+      alert("Importert " + liste.length + " kjøp!");
+    } catch {
+      alert("Kunne ikke lese sikkerhetskopien – er hele teksten limt inn?");
+    }
+  });
+}
+
+/* ============================================================
+   Oppstart
+   ============================================================ */
+document.getElementById("oppdatert").textContent =
+  DATA ? "Oppdatert " + DATA.oppdatert : "Venter på første datainnsamling";
+
+byggKupp();
+byggAlleFiltre();
+byggAlle();
+byggChips();
+byggHistorikkTabell();
+byggKjopSkjema();
+byggKjop();
+
+// Tegn grafen på nytt hvis telefonen bytter mellom lys og mørk modus
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+  oppdaterChips();
+  if (document.getElementById("fane-historikk").classList.contains("aktiv")) tegnGraf();
+});
+
+visFane(localStorage.getItem("garmin_fane") || "kupp");
+</script>
+</body>
+</html>
