@@ -757,9 +757,9 @@
    "antall": 4
   },
   "Epix 2": {
-   "median": 4100,
+   "median": 5300,
    "p10": 3700,
-   "antall": 7
+   "antall": 6
   },
   "Fenix": {
    "median": 1450,
@@ -773,8 +773,8 @@
   },
   "Fenix 5": {
    "median": 1000,
-   "p10": 730,
-   "antall": 27
+   "p10": 725,
+   "antall": 26
   },
   "Fenix 6": {
    "median": 2000,
@@ -783,13 +783,13 @@
   },
   "Fenix 7": {
    "median": 4500,
-   "p10": 3240,
+   "p10": 3210,
    "antall": 48
   },
   "Fenix 8": {
-   "median": 8890,
+   "median": 8800,
    "p10": 8000,
-   "antall": 15
+   "antall": 16
   },
   "Forerunner": {
    "median": 900,
@@ -817,9 +817,9 @@
    "antall": 7
   },
   "Forerunner 265": {
-   "median": 3495,
-   "p10": 3080,
-   "antall": 10
+   "median": 3500,
+   "p10": 3200,
+   "antall": 11
   },
   "Forerunner 45": {
    "median": 850,
@@ -857,9 +857,9 @@
    "antall": 4
   },
   "Forerunner 745": {
-   "median": 1250,
+   "median": 1150,
    "p10": 1000,
-   "antall": 6
+   "antall": 5
   },
   "Forerunner 935": {
    "median": 650,
@@ -902,9 +902,9 @@
    "antall": 1
   },
   "MARQ": {
-   "median": 14999,
-   "p10": 11000,
-   "antall": 3
+   "median": 17000,
+   "p10": 11500,
+   "antall": 4
   },
   "Quatix 8": {
    "median": 12990,
@@ -922,19 +922,19 @@
    "antall": 1
   },
   "Venu": {
-   "median": 790,
-   "p10": 638,
-   "antall": 3
+   "median": 1050,
+   "p10": 690,
+   "antall": 2
   },
   "Venu 2": {
    "median": 1000,
-   "p10": 700,
-   "antall": 9
+   "p10": 650,
+   "antall": 7
   },
   "Venu 3": {
-   "median": 2995,
-   "p10": 2410,
-   "antall": 8
+   "median": 3000,
+   "p10": 2500,
+   "antall": 7
   },
   "Venu 4": {
    "median": 4500,
@@ -957,9 +957,9 @@
    "antall": 3
   },
   "Vivoactive 5": {
-   "median": 1500,
+   "median": 1550,
    "p10": 1500,
-   "antall": 3
+   "antall": 4
   },
   "Vivoactive 6": {
    "median": 2300,
@@ -967,9 +967,9 @@
    "antall": 1
   },
   "Vivomove": {
-   "median": 1000,
-   "p10": 740,
-   "antall": 5
+   "median": 900,
+   "p10": 730,
+   "antall": 4
   },
   "Vivosmart 5": {
    "median": 650,
