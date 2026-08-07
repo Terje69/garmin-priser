@@ -7732,7 +7732,7 @@
   },
   "Epix": {
    "median": 5000,
-   "p10": 4056,
+   "p10": 3816,
    "antall": 7
   },
   "Epix 2": {
@@ -7746,9 +7746,9 @@
    "antall": 2
   },
   "Fenix 3": {
-   "median": 700,
+   "median": 600,
    "p10": 500,
-   "antall": 10
+   "antall": 12
   },
   "Fenix 4": {
    "median": 6100,
@@ -7758,36 +7758,36 @@
   "Fenix 5": {
    "median": 1000,
    "p10": 600,
-   "antall": 39
+   "antall": 38
   },
   "Fenix 6": {
-   "median": 2100,
-   "p10": 1855,
-   "antall": 32
+   "median": 2000,
+   "p10": 1560,
+   "antall": 33
   },
   "Fenix 7": {
-   "median": 4550,
+   "median": 4700,
    "p10": 3460,
    "antall": 27
   },
   "Fenix 8": {
    "median": 7800,
-   "p10": 5740,
+   "p10": 6220,
    "antall": 19
   },
   "Forerunner": {
-   "median": 2990,
-   "p10": 700,
-   "antall": 5
+   "median": 1995,
+   "p10": 650,
+   "antall": 4
   },
   "Forerunner 165": {
-   "median": 1850,
-   "p10": 1725,
-   "antall": 6
+   "median": 1900,
+   "p10": 1740,
+   "antall": 5
   },
   "Forerunner 170": {
-   "median": 2400,
-   "p10": 2080,
+   "median": 2300,
+   "p10": 2060,
    "antall": 2
   },
   "Forerunner 195": {
@@ -7806,9 +7806,9 @@
    "antall": 6
   },
   "Forerunner 245": {
-   "median": 1250,
-   "p10": 880,
-   "antall": 7
+   "median": 1225,
+   "p10": 735,
+   "antall": 8
   },
   "Forerunner 255": {
    "median": 2050,
@@ -7816,9 +7816,9 @@
    "antall": 8
   },
   "Forerunner 265": {
-   "median": 3550,
-   "p10": 2860,
-   "antall": 10
+   "median": 3600,
+   "p10": 2900,
+   "antall": 11
   },
   "Forerunner 35": {
    "median": 500,
@@ -7826,19 +7826,19 @@
    "antall": 1
   },
   "Forerunner 45": {
-   "median": 825,
-   "p10": 800,
-   "antall": 4
+   "median": 850,
+   "p10": 810,
+   "antall": 3
   },
   "Forerunner 55": {
    "median": 1200,
    "p10": 1000,
-   "antall": 10
+   "antall": 11
   },
   "Forerunner 570": {
-   "median": 4850,
-   "p10": 4730,
-   "antall": 2
+   "median": 4700,
+   "p10": 4140,
+   "antall": 3
   },
   "Forerunner 620": {
    "median": 600,
@@ -7848,7 +7848,7 @@
   "Forerunner 645": {
    "median": 1000,
    "p10": 1000,
-   "antall": 3
+   "antall": 5
   },
   "Forerunner 70": {
    "median": 2400,
@@ -7856,9 +7856,9 @@
    "antall": 3
   },
   "Forerunner 735": {
-   "median": 844,
-   "p10": 657,
-   "antall": 4
+   "median": 790,
+   "p10": 540,
+   "antall": 5
   },
   "Forerunner 745": {
    "median": 1400,
@@ -7876,44 +7876,44 @@
    "antall": 2
   },
   "Forerunner 945": {
-   "median": 2300,
-   "p10": 1199,
-   "antall": 5
+   "median": 2200,
+   "p10": 1300,
+   "antall": 6
   },
   "Forerunner 955": {
-   "median": 4000,
-   "p10": 3200,
-   "antall": 5
+   "median": 4100,
+   "p10": 3650,
+   "antall": 4
   },
   "Forerunner 965": {
    "median": 4800,
-   "p10": 3760,
-   "antall": 9
+   "p10": 4360,
+   "antall": 7
   },
   "Forerunner 970": {
-   "median": 6750,
-   "p10": 6550,
-   "antall": 2
+   "median": 7000,
+   "p10": 7000,
+   "antall": 1
   },
   "Instinct": {
-   "median": 1500,
-   "p10": 1180,
-   "antall": 3
+   "median": 1300,
+   "p10": 1140,
+   "antall": 2
   },
   "Instinct 2": {
-   "median": 2999,
-   "p10": 2200,
-   "antall": 3
+   "median": 2500,
+   "p10": 1720,
+   "antall": 4
   },
   "Instinct 3": {
-   "median": 3050,
+   "median": 3000,
    "p10": 2930,
    "antall": 4
   },
   "MARQ": {
-   "median": 3500,
-   "p10": 2700,
-   "antall": 2
+   "median": 2500,
+   "p10": 2500,
+   "antall": 1
   },
   "Tactix 7": {
    "median": 7074,
@@ -7921,24 +7921,24 @@
    "antall": 2
   },
   "Venu": {
-   "median": 1500,
-   "p10": 780,
-   "antall": 3
+   "median": 1200,
+   "p10": 720,
+   "antall": 2
   },
   "Venu 2": {
-   "median": 1000,
-   "p10": 786,
-   "antall": 9
+   "median": 995,
+   "p10": 793,
+   "antall": 10
   },
   "Venu 3": {
-   "median": 2995,
-   "p10": 2450,
+   "median": 2950,
+   "p10": 2770,
    "antall": 10
   },
   "Venu 4": {
-   "median": 4700,
-   "p10": 4540,
-   "antall": 2
+   "median": 4500,
+   "p10": 4500,
+   "antall": 1
   },
   "Venu SQ": {
    "median": 900,
@@ -7958,12 +7958,12 @@
   "Vivoactive 3": {
    "median": 500,
    "p10": 500,
-   "antall": 3
+   "antall": 2
   },
   "Vivoactive 4": {
-   "median": 1050,
-   "p10": 655,
-   "antall": 4
+   "median": 1200,
+   "p10": 960,
+   "antall": 3
   },
   "Vivoactive 5": {
    "median": 2199,
@@ -7977,8 +7977,8 @@
   },
   "Vivomove": {
    "median": 1200,
-   "p10": 750,
-   "antall": 6
+   "p10": 800,
+   "antall": 7
   }
  }
 }
