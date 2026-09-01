@@ -1,5 +1,5 @@
 {
- "oppdatert": "2026-09-01 00:33",
+ "oppdatert": "2026-09-01 11:46",
  "kostnader": {
   "frakt_kr": 80,
   "fikskostnad_kr": 150,
@@ -91,7 +91,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/384521812",
    "publisert": "2026-06-06",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -363,7 +363,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/432504313",
    "publisert": "2026-06-22",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -475,7 +475,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/350267156",
    "publisert": "2026-06-06",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -765,7 +765,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/379307348",
    "publisert": "2026-06-04",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -1137,7 +1137,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/459269914",
    "publisert": "2026-06-09",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -1263,7 +1263,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/467562178",
    "publisert": "2026-06-20",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -1375,7 +1375,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/460177462",
    "publisert": "2026-06-27",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -1455,7 +1455,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/468601802",
    "publisert": "2026-07-02",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -1621,8 +1621,8 @@
    "url": "https://www.finn.no/recommerce/forsale/item/451301545",
    "publisert": "2026-07-02",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-07-27 10:30",
-   "aktiv": false,
+   "sist_sett": "2026-09-01 11:46",
+   "aktiv": true,
    "prishistorikk": [
     {
      "pris": 1100,
@@ -1881,7 +1881,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/375224135",
    "publisert": "2026-06-09",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -1917,7 +1917,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/468394682",
    "publisert": "2026-06-29",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -2178,17 +2178,21 @@
    "finnkode": "455052547",
    "tittel": "Garmin Fenix 6 pro solar",
    "modell": "Fenix 6",
-   "pris": 2700,
+   "pris": 2500,
    "sted": "Askim",
    "url": "https://www.finn.no/recommerce/forsale/item/455052547",
    "publisert": "2026-06-22",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-07-21 14:23",
-   "aktiv": false,
+   "sist_sett": "2026-09-01 11:46",
+   "aktiv": true,
    "prishistorikk": [
     {
      "pris": 2700,
      "dato": "2026-07-08"
+    },
+    {
+     "dato": "2026-09-01",
+     "pris": 2500
     }
    ]
   },
@@ -2201,7 +2205,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/467207162",
    "publisert": "2026-06-16",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -2335,7 +2339,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/466957883",
    "publisert": "2026-06-16",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -2353,7 +2357,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/355115867",
    "publisert": "2026-07-01",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -2371,8 +2375,8 @@
    "url": "https://www.finn.no/recommerce/forsale/item/436004889",
    "publisert": "2026-06-02",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-08-31 13:23",
-   "aktiv": false,
+   "sist_sett": "2026-09-01 11:46",
+   "aktiv": true,
    "prishistorikk": [
     {
      "pris": 150,
@@ -2679,7 +2683,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/432771525",
    "publisert": "2026-06-16",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -2863,7 +2867,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/451225629",
    "publisert": "2026-06-18",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -3349,7 +3353,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/457636017",
    "publisert": "2026-06-10",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -3457,8 +3461,8 @@
    "url": "https://www.finn.no/recommerce/forsale/item/465862998",
    "publisert": "2026-06-03",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-08-31 13:23",
-   "aktiv": false,
+   "sist_sett": "2026-09-01 11:46",
+   "aktiv": true,
    "prishistorikk": [
     {
      "pris": 200,
@@ -3533,7 +3537,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/385778791",
    "publisert": "2026-07-01",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -3793,7 +3797,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/323596295",
    "publisert": "2026-07-01",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -3811,7 +3815,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/431289033",
    "publisert": "2026-06-07",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -3919,7 +3923,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/467251752",
    "publisert": "2026-06-16",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -4179,7 +4183,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/461727407",
    "publisert": "2026-07-02",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -4327,7 +4331,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/458961897",
    "publisert": "2026-06-08",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -4487,7 +4491,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/465741344",
    "publisert": "2026-06-02",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -4995,7 +4999,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/332780071",
    "publisert": "2026-06-05",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -5049,7 +5053,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/377249388",
    "publisert": "2026-06-03",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -5229,7 +5233,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/461207728",
    "publisert": "2026-06-26",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -5521,7 +5525,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/323600915",
    "publisert": "2026-06-08",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -5803,7 +5807,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/434391613",
    "publisert": "2026-06-27",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -6297,7 +6301,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/414046295",
    "publisert": "2026-06-26",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -6627,7 +6631,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/423967063",
    "publisert": "2026-05-28",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -6757,7 +6761,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/467312339",
    "publisert": "2026-06-17",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -7251,7 +7255,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/466992201",
    "publisert": "2026-06-14",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -7323,7 +7327,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/465805005",
    "publisert": "2026-06-03",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -7471,7 +7475,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/468096032",
    "publisert": "2026-06-25",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -7493,7 +7497,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/468547533",
    "publisert": "2026-07-01",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -8171,7 +8175,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/443830472",
    "publisert": "2026-07-01",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -8229,7 +8233,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/468533151",
    "publisert": "2026-07-01",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -8447,7 +8451,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/468087198",
    "publisert": "2026-06-25",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -8679,7 +8683,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/460268393",
    "publisert": "2026-06-17",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -8849,7 +8853,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/454142477",
    "publisert": "2026-07-05",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -8991,7 +8995,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/377248587",
    "publisert": "2026-06-03",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -9081,7 +9085,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/415194896",
    "publisert": "2026-06-02",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -9641,7 +9645,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/423496523",
    "publisert": "2026-06-29",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -9695,8 +9699,8 @@
    "url": "https://www.finn.no/recommerce/forsale/item/398479894",
    "publisert": "2026-06-02",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-08-31 13:23",
-   "aktiv": false,
+   "sist_sett": "2026-09-01 11:46",
+   "aktiv": true,
    "prishistorikk": [
     {
      "pris": 150,
@@ -9785,7 +9789,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/467970575",
    "publisert": "2026-06-24",
    "forst_sett": "2026-07-08 13:44",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -10487,7 +10491,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/465123308",
    "publisert": "2026-05-27",
    "forst_sett": "2026-07-08 21:25",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -39789,7 +39793,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472046976",
    "publisert": "2026-08-04",
    "forst_sett": "2026-08-04 21:37",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -40153,7 +40157,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/460812476",
    "publisert": "2026-08-05",
    "forst_sett": "2026-08-05 14:52",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -40637,7 +40641,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472177840",
    "publisert": "2026-08-05",
    "forst_sett": "2026-08-05 21:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -41071,7 +41075,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472154453",
    "publisert": "2026-08-05",
    "forst_sett": "2026-08-05 21:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -42067,7 +42071,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472309739",
    "publisert": "2026-08-06",
    "forst_sett": "2026-08-07 01:59",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -42343,7 +42347,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472273322",
    "publisert": "2026-08-06",
    "forst_sett": "2026-08-07 01:59",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -42535,7 +42539,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472391293",
    "publisert": "2026-08-07",
    "forst_sett": "2026-08-07 13:45",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -42553,7 +42557,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472390482",
    "publisert": "2026-08-07",
    "forst_sett": "2026-08-07 13:45",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -42719,7 +42723,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472380123",
    "publisert": "2026-08-07",
    "forst_sett": "2026-08-07 13:45",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -43703,7 +43707,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472421628",
    "publisert": "2026-08-07",
    "forst_sett": "2026-08-07 20:56",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -43811,7 +43815,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472397168",
    "publisert": "2026-08-07",
    "forst_sett": "2026-08-07 20:56",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -43851,7 +43855,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472392890",
    "publisert": "2026-08-07",
    "forst_sett": "2026-08-07 20:56",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -45133,7 +45137,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472725445",
    "publisert": "2026-08-09",
    "forst_sett": "2026-08-09 20:40",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -45253,7 +45257,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472715538",
    "publisert": "2026-08-09",
    "forst_sett": "2026-08-09 20:40",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -45667,7 +45671,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/382960229",
    "publisert": "2026-08-09",
    "forst_sett": "2026-08-09 20:40",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -46079,7 +46083,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472699964",
    "publisert": "2026-08-09",
    "forst_sett": "2026-08-09 20:40",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -46155,7 +46159,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/380643752",
    "publisert": "2026-08-10",
    "forst_sett": "2026-08-10 08:09",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -46911,7 +46915,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472802165",
    "publisert": "2026-08-10",
    "forst_sett": "2026-08-10 20:57",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -47009,7 +47013,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/469918843",
    "publisert": "2026-08-10",
    "forst_sett": "2026-08-10 20:57",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -47183,7 +47187,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472848633",
    "publisert": "2026-08-10",
    "forst_sett": "2026-08-10 20:57",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -47613,7 +47617,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472869367",
    "publisert": "2026-08-10",
    "forst_sett": "2026-08-11 07:53",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -47711,7 +47715,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472982962",
    "publisert": "2026-08-11",
    "forst_sett": "2026-08-11 21:01",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -47925,7 +47929,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/431779362",
    "publisert": "2026-08-11",
    "forst_sett": "2026-08-11 21:01",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -48231,7 +48235,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472930032",
    "publisert": "2026-08-11",
    "forst_sett": "2026-08-11 21:01",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -48789,7 +48793,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472988407",
    "publisert": "2026-08-11",
    "forst_sett": "2026-08-12 08:13",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -48873,7 +48877,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473010397",
    "publisert": "2026-08-12",
    "forst_sett": "2026-08-12 08:13",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -48913,7 +48917,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473039548",
    "publisert": "2026-08-12",
    "forst_sett": "2026-08-12 13:45",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -50541,7 +50545,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473129268",
    "publisert": "2026-08-13",
    "forst_sett": "2026-08-13 13:46",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -50649,7 +50653,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473148245",
    "publisert": "2026-08-13",
    "forst_sett": "2026-08-13 13:46",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -52423,7 +52427,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473299308",
    "publisert": "2026-08-14",
    "forst_sett": "2026-08-14 20:53",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -52445,7 +52449,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473281522",
    "publisert": "2026-08-14",
    "forst_sett": "2026-08-14 20:53",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -53049,7 +53053,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473364718",
    "publisert": "2026-08-15",
    "forst_sett": "2026-08-15 13:20",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -53245,7 +53249,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473435928",
    "publisert": "2026-08-15",
    "forst_sett": "2026-08-16 07:28",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -53365,7 +53369,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473406389",
    "publisert": "2026-08-15",
    "forst_sett": "2026-08-16 07:28",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -53857,7 +53861,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/356687980",
    "publisert": "2026-08-15",
    "forst_sett": "2026-08-16 07:28",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -53897,7 +53901,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473493405",
    "publisert": "2026-08-16",
    "forst_sett": "2026-08-16 13:19",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -54325,7 +54329,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473548190",
    "publisert": "2026-08-16",
    "forst_sett": "2026-08-16 20:28",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -54433,7 +54437,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473531064",
    "publisert": "2026-08-16",
    "forst_sett": "2026-08-16 20:28",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -55271,7 +55275,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473621771",
    "publisert": "2026-08-17",
    "forst_sett": "2026-08-17 13:25",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -55289,7 +55293,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473691965",
    "publisert": "2026-08-17",
    "forst_sett": "2026-08-17 20:38",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -55433,7 +55437,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473665360",
    "publisert": "2026-08-17",
    "forst_sett": "2026-08-17 20:38",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -55567,7 +55571,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473663073",
    "publisert": "2026-08-17",
    "forst_sett": "2026-08-17 20:38",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -55637,7 +55641,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473657369",
    "publisert": "2026-08-17",
    "forst_sett": "2026-08-17 20:38",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -55843,7 +55847,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473654969",
    "publisert": "2026-08-17",
    "forst_sett": "2026-08-17 20:38",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -56043,7 +56047,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/404974750",
    "publisert": "2026-08-17",
    "forst_sett": "2026-08-18 07:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -56061,7 +56065,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473701823",
    "publisert": "2026-08-17",
    "forst_sett": "2026-08-18 07:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -56433,7 +56437,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473757626",
    "publisert": "2026-08-18",
    "forst_sett": "2026-08-18 13:25",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -56767,7 +56771,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473770644",
    "publisert": "2026-08-18",
    "forst_sett": "2026-08-18 20:37",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -56803,7 +56807,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473771443",
    "publisert": "2026-08-18",
    "forst_sett": "2026-08-18 20:37",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -57023,7 +57027,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473764904",
    "publisert": "2026-08-18",
    "forst_sett": "2026-08-18 20:37",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -57113,7 +57117,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473266929",
    "publisert": "2026-08-18",
    "forst_sett": "2026-08-19 07:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -57233,7 +57237,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473823005",
    "publisert": "2026-08-18",
    "forst_sett": "2026-08-19 07:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -57251,7 +57255,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473822805",
    "publisert": "2026-08-18",
    "forst_sett": "2026-08-19 07:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -57269,7 +57273,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473822568",
    "publisert": "2026-08-18",
    "forst_sett": "2026-08-19 07:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -57287,7 +57291,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473822239",
    "publisert": "2026-08-18",
    "forst_sett": "2026-08-19 07:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -57305,7 +57309,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473822065",
    "publisert": "2026-08-18",
    "forst_sett": "2026-08-19 07:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -57323,7 +57327,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473821895",
    "publisert": "2026-08-18",
    "forst_sett": "2026-08-19 07:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -57341,7 +57345,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473821674",
    "publisert": "2026-08-18",
    "forst_sett": "2026-08-19 07:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -57837,7 +57841,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473915409",
    "publisert": "2026-08-19",
    "forst_sett": "2026-08-19 20:34",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -58359,7 +58363,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473942808",
    "publisert": "2026-08-19",
    "forst_sett": "2026-08-20 07:30",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -58413,7 +58417,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473943601",
    "publisert": "2026-08-19",
    "forst_sett": "2026-08-20 07:30",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -58467,7 +58471,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473928682",
    "publisert": "2026-08-19",
    "forst_sett": "2026-08-20 07:30",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -58815,7 +58819,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473961261",
    "publisert": "2026-08-20",
    "forst_sett": "2026-08-20 13:25",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -58851,7 +58855,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473985323",
    "publisert": "2026-08-20",
    "forst_sett": "2026-08-20 13:25",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -59221,7 +59225,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474003110",
    "publisert": "2026-08-20",
    "forst_sett": "2026-08-20 20:38",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -59507,7 +59511,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/470060727",
    "publisert": "2026-08-20",
    "forst_sett": "2026-08-20 20:38",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -59641,7 +59645,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474040728",
    "publisert": "2026-08-20",
    "forst_sett": "2026-08-21 07:32",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -59991,7 +59995,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474077442",
    "publisert": "2026-08-21",
    "forst_sett": "2026-08-21 13:25",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -60013,7 +60017,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474075440",
    "publisert": "2026-08-21",
    "forst_sett": "2026-08-21 13:25",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -60075,7 +60079,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474139558",
    "publisert": "2026-08-21",
    "forst_sett": "2026-08-21 20:35",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -60093,7 +60097,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474137594",
    "publisert": "2026-08-21",
    "forst_sett": "2026-08-21 20:35",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -60155,7 +60159,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474122237",
    "publisert": "2026-08-21",
    "forst_sett": "2026-08-21 20:35",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -60173,7 +60177,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474121719",
    "publisert": "2026-08-21",
    "forst_sett": "2026-08-21 20:35",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -60863,7 +60867,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474197059",
    "publisert": "2026-08-22",
    "forst_sett": "2026-08-22 13:20",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -60881,7 +60885,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474196934",
    "publisert": "2026-08-22",
    "forst_sett": "2026-08-22 13:20",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -60975,7 +60979,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474191888",
    "publisert": "2026-08-22",
    "forst_sett": "2026-08-22 13:20",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -61159,7 +61163,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474147210",
    "publisert": "2026-08-22",
    "forst_sett": "2026-08-22 13:20",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -61199,7 +61203,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474164788",
    "publisert": "2026-08-22",
    "forst_sett": "2026-08-22 13:20",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -61221,7 +61225,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474164705",
    "publisert": "2026-08-22",
    "forst_sett": "2026-08-22 13:20",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -61293,7 +61297,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474165886",
    "publisert": "2026-08-22",
    "forst_sett": "2026-08-22 13:20",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -61572,7 +61576,7 @@
    "publisert": "2026-08-22",
    "forst_sett": "2026-08-22 20:29",
    "sist_sett": "2026-09-01 00:33",
-   "aktiv": true,
+   "aktiv": false,
    "prishistorikk": [
     {
      "dato": "2026-08-22",
@@ -61663,7 +61667,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474232969",
    "publisert": "2026-08-22",
    "forst_sett": "2026-08-22 20:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -61681,7 +61685,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474210766",
    "publisert": "2026-08-22",
    "forst_sett": "2026-08-22 20:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -61699,7 +61703,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474252607",
    "publisert": "2026-08-22",
    "forst_sett": "2026-08-22 20:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -61735,7 +61739,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474234776",
    "publisert": "2026-08-22",
    "forst_sett": "2026-08-22 20:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -61815,7 +61819,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/427655342",
    "publisert": "2026-08-22",
    "forst_sett": "2026-08-22 20:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -62043,7 +62047,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474265225",
    "publisert": "2026-08-22",
    "forst_sett": "2026-08-23 07:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -62061,7 +62065,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474257003",
    "publisert": "2026-08-22",
    "forst_sett": "2026-08-23 07:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -62151,7 +62155,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474299552",
    "publisert": "2026-08-23",
    "forst_sett": "2026-08-23 13:20",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -62169,7 +62173,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/417116550",
    "publisert": "2026-08-23",
    "forst_sett": "2026-08-23 13:20",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -62241,7 +62245,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474285691",
    "publisert": "2026-08-23",
    "forst_sett": "2026-08-23 13:20",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -62281,7 +62285,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474315678",
    "publisert": "2026-08-23",
    "forst_sett": "2026-08-23 13:20",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -62299,7 +62303,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474309474",
    "publisert": "2026-08-23",
    "forst_sett": "2026-08-23 13:20",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -62317,7 +62321,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/430199914",
    "publisert": "2026-08-23",
    "forst_sett": "2026-08-23 13:20",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -62335,7 +62339,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/420332602",
    "publisert": "2026-08-23",
    "forst_sett": "2026-08-23 13:20",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -62353,7 +62357,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474387434",
    "publisert": "2026-08-23",
    "forst_sett": "2026-08-23 20:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -62679,7 +62683,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474347486",
    "publisert": "2026-08-23",
    "forst_sett": "2026-08-23 20:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -62715,7 +62719,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474343932",
    "publisert": "2026-08-23",
    "forst_sett": "2026-08-23 20:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -62737,7 +62741,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474340268",
    "publisert": "2026-08-23",
    "forst_sett": "2026-08-23 20:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -62773,7 +62777,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474338671",
    "publisert": "2026-08-23",
    "forst_sett": "2026-08-23 20:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -63131,7 +63135,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/465214336",
    "publisert": "2026-08-24",
    "forst_sett": "2026-08-24 07:37",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -63189,7 +63193,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474396608",
    "publisert": "2026-08-23",
    "forst_sett": "2026-08-24 07:37",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -63417,7 +63421,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/392043453",
    "publisert": "2026-08-24",
    "forst_sett": "2026-08-24 13:28",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -63435,7 +63439,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474424750",
    "publisert": "2026-08-24",
    "forst_sett": "2026-08-24 13:28",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -63453,7 +63457,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474436683",
    "publisert": "2026-08-24",
    "forst_sett": "2026-08-24 13:28",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -63551,7 +63555,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474499186",
    "publisert": "2026-08-24",
    "forst_sett": "2026-08-24 20:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -63623,7 +63627,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474483475",
    "publisert": "2026-08-24",
    "forst_sett": "2026-08-24 20:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -63721,7 +63725,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474495138",
    "publisert": "2026-08-24",
    "forst_sett": "2026-08-24 20:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -63743,7 +63747,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474486752",
    "publisert": "2026-08-24",
    "forst_sett": "2026-08-24 20:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -63761,7 +63765,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474484970",
    "publisert": "2026-08-24",
    "forst_sett": "2026-08-24 20:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -63827,7 +63831,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474472038",
    "publisert": "2026-08-24",
    "forst_sett": "2026-08-24 20:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -63845,7 +63849,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474464370",
    "publisert": "2026-08-24",
    "forst_sett": "2026-08-24 20:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -63863,7 +63867,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474460368",
    "publisert": "2026-08-24",
    "forst_sett": "2026-08-24 20:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -63939,7 +63943,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474465365",
    "publisert": "2026-08-24",
    "forst_sett": "2026-08-24 20:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -63975,7 +63979,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474526266",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 07:31",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -64006,12 +64010,12 @@
    "finnkode": "474523796",
    "tittel": "Garmin FENIX 8 51mm amoled/sapphire",
    "modell": "Fenix 8",
-   "pris": 8000,
+   "pris": 7800,
    "sted": "Bærums Verk",
    "url": "https://www.finn.no/recommerce/forsale/item/474523796",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 07:31",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -64025,6 +64029,10 @@
     {
      "dato": "2026-08-30",
      "pris": 8000
+    },
+    {
+     "dato": "2026-09-01",
+     "pris": 7800
     }
    ]
   },
@@ -64225,7 +64233,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/461264614",
    "publisert": "2026-08-24",
    "forst_sett": "2026-08-25 07:31",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -64261,7 +64269,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474515521",
    "publisert": "2026-08-24",
    "forst_sett": "2026-08-25 07:31",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -64431,7 +64439,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474552215",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 13:27",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -64471,7 +64479,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474544860",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 13:27",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -64493,7 +64501,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474543689",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 13:27",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -64529,7 +64537,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474537354",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 13:27",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -64547,7 +64555,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474536944",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 13:27",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -64565,7 +64573,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474536471",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 13:27",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -64725,7 +64733,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474557672",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 13:27",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -64823,7 +64831,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474604815",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 20:38",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -64859,7 +64867,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474514188",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 20:38",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -64913,7 +64921,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474586357",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 20:38",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -64931,7 +64939,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/432516722",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 20:38",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -64967,7 +64975,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474580572",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 20:38",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -65123,7 +65131,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474566939",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 20:38",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -65145,7 +65153,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474567054",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 20:38",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -65235,7 +65243,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474560542",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 20:38",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -65271,7 +65279,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474599690",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 20:38",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -65315,7 +65323,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474422665",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 20:38",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -65333,7 +65341,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/463934187",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-25 20:38",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -65525,7 +65533,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474619280",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-26 07:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -65623,7 +65631,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/462471643",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-26 07:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -65685,7 +65693,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474615076",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-26 07:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -65725,7 +65733,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474606502",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-26 07:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -65819,7 +65827,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474615630",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-26 07:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -65837,7 +65845,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474606582",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-26 07:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -65877,7 +65885,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474620480",
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-26 07:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -65900,7 +65908,7 @@
    "publisert": "2026-08-25",
    "forst_sett": "2026-08-26 07:33",
    "sist_sett": "2026-09-01 00:33",
-   "aktiv": true,
+   "aktiv": false,
    "prishistorikk": [
     {
      "dato": "2026-08-26",
@@ -65917,7 +65925,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474655988",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66029,7 +66037,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474646180",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66051,7 +66059,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474646545",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66165,7 +66173,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474639624",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66183,7 +66191,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474636316",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66241,7 +66249,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474633254",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66335,7 +66343,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474629433",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66353,7 +66361,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474656574",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66389,7 +66397,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474640019",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66407,7 +66415,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474637639",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66443,7 +66451,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474648473",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66461,7 +66469,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474634939",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66479,7 +66487,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474629154",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66609,7 +66617,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474690751",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 21:46",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66663,7 +66671,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474678784",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 21:46",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66681,7 +66689,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/438110950",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 21:46",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66699,7 +66707,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474673793",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 21:46",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66797,7 +66805,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474660894",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 21:46",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66851,7 +66859,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474658772",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 21:46",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66895,7 +66903,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474708404",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 21:46",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66913,7 +66921,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474682492",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 21:46",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -66949,7 +66957,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474695151",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 21:46",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -67043,7 +67051,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474662687",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-26 21:46",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -67102,7 +67110,7 @@
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-27 18:08",
    "sist_sett": "2026-09-01 00:33",
-   "aktiv": true,
+   "aktiv": false,
    "prishistorikk": [
     {
      "dato": "2026-08-27",
@@ -67124,7 +67132,7 @@
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-27 18:08",
    "sist_sett": "2026-09-01 00:33",
-   "aktiv": true,
+   "aktiv": false,
    "prishistorikk": [
     {
      "dato": "2026-08-27",
@@ -67160,7 +67168,7 @@
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-27 18:08",
    "sist_sett": "2026-09-01 00:33",
-   "aktiv": true,
+   "aktiv": false,
    "prishistorikk": [
     {
      "dato": "2026-08-27",
@@ -67178,7 +67186,7 @@
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-27 18:08",
    "sist_sett": "2026-09-01 00:33",
-   "aktiv": true,
+   "aktiv": false,
    "prishistorikk": [
     {
      "dato": "2026-08-27",
@@ -67213,7 +67221,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474768136",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-27 18:08",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -67235,7 +67243,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474716416",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-27 18:08",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -67463,7 +67471,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/464839769",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-27 18:08",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -67535,7 +67543,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474723630",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-27 18:08",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -67557,7 +67565,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474719568",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-27 18:08",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -67575,7 +67583,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474716531",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-27 18:08",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -67615,7 +67623,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474714063",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-27 18:08",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -67669,7 +67677,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474711062",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-27 18:08",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -67705,7 +67713,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474709072",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-27 18:08",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -67727,7 +67735,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474778197",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-27 18:08",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -67745,7 +67753,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474772065",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-27 18:08",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -67763,7 +67771,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474769721",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-27 18:08",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -67835,7 +67843,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474734459",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-27 18:08",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -67889,7 +67897,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474771587",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-27 18:08",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -67907,7 +67915,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474745725",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-27 18:08",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -67925,7 +67933,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474737135",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-27 18:08",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -67960,17 +67968,21 @@
    "finnkode": "474723740",
    "tittel": "Garmin Forerunner 405 GPS pulsklokke med pulsbelte",
    "modell": "Tilbehør",
-   "pris": 250,
+   "pris": 150,
    "sted": "Ørje",
    "url": "https://www.finn.no/recommerce/forsale/item/474723740",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-27 18:08",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
      "dato": "2026-08-27",
      "pris": 250
+    },
+    {
+     "dato": "2026-09-01",
+     "pris": 150
     }
    ]
   },
@@ -67984,7 +67996,7 @@
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-27 18:08",
    "sist_sett": "2026-09-01 00:33",
-   "aktiv": true,
+   "aktiv": false,
    "prishistorikk": [
     {
      "dato": "2026-08-27",
@@ -68001,7 +68013,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474702732",
    "publisert": "2026-08-26",
    "forst_sett": "2026-08-27 18:08",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68055,7 +68067,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/468360196",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-28 04:03",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68073,7 +68085,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/468356933",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-28 04:03",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68109,7 +68121,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474803329",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-28 04:03",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68127,7 +68139,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474802804",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-28 04:03",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68157,7 +68169,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474801194",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-28 04:03",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68193,7 +68205,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474795015",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-28 04:03",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68215,7 +68227,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474793995",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-28 04:03",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68255,7 +68267,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474785658",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-28 04:03",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68291,7 +68303,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474781623",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-28 04:03",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68331,7 +68343,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474807160",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-28 04:03",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68393,7 +68405,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474813065",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 04:03",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68411,7 +68423,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474808005",
    "publisert": "2026-08-27",
    "forst_sett": "2026-08-28 04:03",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68465,7 +68477,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474875272",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68527,7 +68539,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474874545",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68545,7 +68557,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474872843",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68563,7 +68575,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474872611",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68617,7 +68629,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474871323",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68635,7 +68647,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474871024",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68653,7 +68665,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474870747",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68671,7 +68683,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474869756",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68708,7 +68720,7 @@
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
    "sist_sett": "2026-09-01 00:33",
-   "aktiv": true,
+   "aktiv": false,
    "prishistorikk": [
     {
      "dato": "2026-08-28",
@@ -68729,7 +68741,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474866034",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68769,7 +68781,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474861261",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68787,7 +68799,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474860372",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68805,7 +68817,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474737253",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68827,7 +68839,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474856687",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68871,7 +68883,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474855722",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68889,7 +68901,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474852966",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -68943,7 +68955,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474836164",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69001,7 +69013,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474832981",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69019,7 +69031,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474830842",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69038,7 +69050,7 @@
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
    "sist_sett": "2026-09-01 00:33",
-   "aktiv": true,
+   "aktiv": false,
    "prishistorikk": [
     {
      "dato": "2026-08-28",
@@ -69073,7 +69085,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474820885",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69109,7 +69121,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474876109",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69127,7 +69139,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474875420",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69145,7 +69157,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474875184",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69185,7 +69197,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474843679",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69225,7 +69237,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474826514",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69279,7 +69291,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474839788",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-28 19:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69319,7 +69331,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474898348",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 03:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69337,7 +69349,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474893524",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-29 03:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69359,7 +69371,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474894210",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-29 03:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69381,7 +69393,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/461217628",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-29 03:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69400,7 +69412,7 @@
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-29 03:29",
    "sist_sett": "2026-09-01 00:33",
-   "aktiv": true,
+   "aktiv": false,
    "prishistorikk": [
     {
      "dato": "2026-08-29",
@@ -69417,7 +69429,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/444718585",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-29 03:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69436,7 +69448,7 @@
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-29 03:29",
    "sist_sett": "2026-09-01 00:33",
-   "aktiv": true,
+   "aktiv": false,
    "prishistorikk": [
     {
      "dato": "2026-08-29",
@@ -69489,7 +69501,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474874741",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-29 03:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69507,7 +69519,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474881279",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-29 03:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69543,7 +69555,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474880608",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-29 03:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69579,7 +69591,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/463980825",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-29 03:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69598,7 +69610,7 @@
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-29 03:29",
    "sist_sett": "2026-09-01 00:33",
-   "aktiv": true,
+   "aktiv": false,
    "prishistorikk": [
     {
      "dato": "2026-08-29",
@@ -69633,7 +69645,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474895364",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-29 03:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69669,7 +69681,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474890151",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-29 03:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69691,7 +69703,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474888920",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-29 03:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69727,7 +69739,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474940558",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69745,7 +69757,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/368467264",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69763,7 +69775,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474931815",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69781,7 +69793,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474930823",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69817,7 +69829,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474919815",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69853,7 +69865,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474916763",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69871,7 +69883,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474916770",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69889,7 +69901,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474916368",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69907,7 +69919,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474916174",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69925,7 +69937,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474915588",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69943,7 +69955,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474915444",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69961,7 +69973,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474915173",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69979,7 +69991,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474914873",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -69997,7 +70009,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474913691",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70033,7 +70045,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/416034389",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70051,7 +70063,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474908506",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70069,7 +70081,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474908420",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70109,7 +70121,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/467900203",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70122,17 +70134,21 @@
    "finnkode": "474857682",
    "tittel": "Apple Watch Ultra 2 selges",
    "modell": "Annet",
-   "pris": 5900,
+   "pris": 5400,
    "sted": "Tønsberg",
    "url": "https://www.finn.no/recommerce/forsale/item/474857682",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
      "dato": "2026-08-29",
      "pris": 5900
+    },
+    {
+     "dato": "2026-09-01",
+     "pris": 5400
     }
    ]
   },
@@ -70145,7 +70161,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474939647",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70163,7 +70179,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474937001",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70199,7 +70215,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474924810",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70217,7 +70233,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474921778",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70253,7 +70269,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474916110",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70271,7 +70287,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474906712",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70307,7 +70323,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474913399",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 13:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70325,7 +70341,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474999922",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70343,7 +70359,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474996566",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70361,7 +70377,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474997314",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70379,7 +70395,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474995941",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70397,7 +70413,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474995280",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70433,7 +70449,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474994294",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70455,7 +70471,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474991383",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70473,7 +70489,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474988703",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70509,7 +70525,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474978823",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70522,17 +70538,21 @@
    "finnkode": "442441979",
    "tittel": "Garmin Fenix 6 Sapphire 42 mm - robust premiumklokke m/ safirglass + HRV",
    "modell": "Fenix 6",
-   "pris": 2500,
+   "pris": 2000,
    "sted": "Kløfta",
    "url": "https://www.finn.no/recommerce/forsale/item/442441979",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
      "dato": "2026-08-29",
      "pris": 2500
+    },
+    {
+     "dato": "2026-09-01",
+     "pris": 2000
     }
    ]
   },
@@ -70545,7 +70565,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474980178",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70563,7 +70583,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474977666",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70581,7 +70601,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474976375",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70599,7 +70619,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474975387",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70635,7 +70655,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474972475",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70665,7 +70685,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474971691",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70683,7 +70703,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474969011",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70701,7 +70721,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/467902616",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70719,7 +70739,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474967237",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70755,7 +70775,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474963469",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70773,7 +70793,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474960767",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70795,7 +70815,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474888026",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70853,7 +70873,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474948232",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70871,7 +70891,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474945356",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70893,7 +70913,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474944859",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70911,7 +70931,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475003085",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70933,7 +70953,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474996627",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70951,7 +70971,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474970470",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70969,7 +70989,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474969132",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -70987,7 +71007,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474943454",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71023,7 +71043,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474991418",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71041,7 +71061,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474979874",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71059,7 +71079,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474979712",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71077,7 +71097,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474952315",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-29 22:29",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71113,7 +71133,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475042042",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71131,7 +71151,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475036215",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71167,7 +71187,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475033628",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71185,7 +71205,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475032440",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71203,7 +71223,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475024473",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71221,7 +71241,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475021635",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71239,7 +71259,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475018757",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71257,7 +71277,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475016548",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71293,7 +71313,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475007984",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71311,7 +71331,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475006787",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71333,7 +71353,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475004878",
    "publisert": "2026-08-29",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71346,17 +71366,21 @@
    "finnkode": "475040428",
    "tittel": "Garmin Fenix 7X - Sapphire Solar",
    "modell": "Fenix 7",
-   "pris": 3900,
+   "pris": 3600,
    "sted": "Melhus",
    "url": "https://www.finn.no/recommerce/forsale/item/475040428",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
      "dato": "2026-08-30",
      "pris": 3900
+    },
+    {
+     "dato": "2026-09-01",
+     "pris": 3600
     }
    ]
   },
@@ -71369,7 +71393,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475041128",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71387,7 +71411,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475024725",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71405,7 +71429,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475015509",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71430,17 +71454,21 @@
    "finnkode": "475041169",
    "tittel": "Garmin Forerunner 945 pulsklokke svart",
    "modell": "Forerunner 945",
-   "pris": 2000,
+   "pris": 1800,
    "sted": "Oslo",
    "url": "https://www.finn.no/recommerce/forsale/item/475041169",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
      "dato": "2026-08-30",
      "pris": 2000
+    },
+    {
+     "dato": "2026-09-01",
+     "pris": 1800
     }
    ]
   },
@@ -71453,7 +71481,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475032606",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71471,7 +71499,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475028655",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71489,7 +71517,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475021832",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71507,7 +71535,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475013608",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 12:16",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71525,7 +71553,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475091898",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71543,7 +71571,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475090537",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71561,7 +71589,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475089936",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71597,7 +71625,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475079725",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71633,7 +71661,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475076397",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71651,7 +71679,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475075767",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71669,7 +71697,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474892493",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71687,7 +71715,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475069774",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71723,7 +71751,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475065301",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71741,7 +71769,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475064903",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71767,7 +71795,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475061135",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71785,7 +71813,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475056532",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71821,7 +71849,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475054613",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71839,7 +71867,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/455521364",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71875,7 +71903,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475048932",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71893,7 +71921,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475050031",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71911,7 +71939,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475049600",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71929,7 +71957,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475048816",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71965,7 +71993,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475084841",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -71983,7 +72011,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475077823",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72005,7 +72033,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475076202",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72023,7 +72051,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475047149",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72041,7 +72069,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475077658",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 17:10",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72059,7 +72087,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475136233",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72088,19 +72116,23 @@
   },
   "475136920": {
    "finnkode": "475136920",
-   "tittel": "Garmin Fenix 8 AMOLED 47 mm",
+   "tittel": "Garmin Fenix 8 AMOLED 47 mm, Sapphire",
    "modell": "Fenix 8",
-   "pris": 8490,
+   "pris": 8290,
    "sted": "Oslo",
    "url": "https://www.finn.no/recommerce/forsale/item/475136920",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
      "dato": "2026-08-30",
      "pris": 8490
+    },
+    {
+     "dato": "2026-09-01",
+     "pris": 8290
     }
    ]
   },
@@ -72113,7 +72145,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475135472",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72135,7 +72167,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475132452",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72153,7 +72185,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475126307",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72171,7 +72203,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475127046",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72189,7 +72221,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475126743",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72207,7 +72239,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475126308",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72225,7 +72257,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475125715",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72243,7 +72275,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475123337",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72279,7 +72311,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474898215",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72315,7 +72347,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475115067",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72333,7 +72365,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475112315",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72351,7 +72383,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475111585",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72369,7 +72401,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475111530",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72387,7 +72419,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/468087477",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72405,7 +72437,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/473621889",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72423,7 +72455,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475104257",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72459,7 +72491,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475101925",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72481,7 +72513,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475101385",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72499,7 +72531,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475096807",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72517,7 +72549,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474625804",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72535,7 +72567,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475096392",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72571,7 +72603,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475131494",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72607,7 +72639,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/383624829",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72643,7 +72675,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475102596",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72661,7 +72693,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/286338291",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72679,7 +72711,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475130910",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-30 22:39",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72715,7 +72747,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475182419",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72733,7 +72765,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475178973",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72751,7 +72783,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475177969",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72805,7 +72837,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475172291",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72841,7 +72873,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475168288",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72859,7 +72891,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475167804",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72877,7 +72909,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475165049",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72895,7 +72927,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475160970",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72931,7 +72963,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475155121",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72949,7 +72981,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475154679",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72967,7 +72999,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475145583",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -72985,7 +73017,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475144154",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73003,7 +73035,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475143051",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73021,7 +73053,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474778859",
    "publisert": "2026-08-28",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73057,7 +73089,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475176702",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73075,7 +73107,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475166992",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73093,7 +73125,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475164754",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73111,7 +73143,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475126708",
    "publisert": "2026-08-30",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73124,17 +73156,21 @@
    "finnkode": "475181360",
    "tittel": "Garmin Forerunner 970",
    "modell": "Forerunner 970",
-   "pris": 7000,
+   "pris": 6700,
    "sted": "Stavanger",
    "url": "https://www.finn.no/recommerce/forsale/item/475181360",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
      "dato": "2026-08-31",
      "pris": 7000
+    },
+    {
+     "dato": "2026-09-01",
+     "pris": 6700
     }
    ]
   },
@@ -73147,7 +73183,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475166843",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73165,7 +73201,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/469246400",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73183,7 +73219,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/474922098",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73201,7 +73237,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475143202",
    "publisert": "2026-08-31",
    "forst_sett": "2026-08-31 13:23",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73219,7 +73255,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/446774155",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73237,7 +73273,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475247179",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73255,7 +73291,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475247012",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73268,17 +73304,21 @@
    "finnkode": "475246734",
    "tittel": "Garmin smartklokke",
    "modell": "Annet",
-   "pris": 500,
+   "pris": 400,
    "sted": "Fall",
    "url": "https://www.finn.no/recommerce/forsale/item/475246734",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
      "dato": "2026-09-01",
      "pris": 500
+    },
+    {
+     "dato": "2026-09-01",
+     "pris": 400
     }
    ]
   },
@@ -73291,7 +73331,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475244807",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73309,7 +73349,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475237422",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73327,7 +73367,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475233036",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73345,7 +73385,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475233334",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73363,7 +73403,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475233336",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73381,7 +73421,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475228089",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73399,7 +73439,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475229426",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73417,7 +73457,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475229613",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73435,7 +73475,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/284734842",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73453,7 +73493,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/462348422",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73471,7 +73511,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475228316",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73489,7 +73529,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475226527",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73507,7 +73547,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475222872",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73525,7 +73565,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475217259",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73543,7 +73583,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/458067993",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73561,7 +73601,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475220315",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73579,7 +73619,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475219003",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73597,7 +73637,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475209679",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73615,7 +73655,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475207859",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73633,7 +73673,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472897851",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73651,7 +73691,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472898210",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73669,7 +73709,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475205235",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73687,7 +73727,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472857715",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73705,7 +73745,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472852262",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73723,7 +73763,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472856713",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73741,7 +73781,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475202455",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73759,7 +73799,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475201849",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73777,7 +73817,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475201187",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73795,7 +73835,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475197228",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73813,7 +73853,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475195658",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73831,7 +73871,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475192275",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73849,7 +73889,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475192141",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73868,7 +73908,7 @@
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
    "sist_sett": "2026-09-01 00:33",
-   "aktiv": true,
+   "aktiv": false,
    "prishistorikk": [
     {
      "dato": "2026-09-01",
@@ -73885,7 +73925,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/468487640",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73903,7 +73943,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475188386",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73921,7 +73961,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475188142",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73939,7 +73979,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475183994",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73957,7 +73997,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475240200",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -73976,7 +74016,7 @@
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
    "sist_sett": "2026-09-01 00:33",
-   "aktiv": true,
+   "aktiv": false,
    "prishistorikk": [
     {
      "dato": "2026-09-01",
@@ -73994,7 +74034,7 @@
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
    "sist_sett": "2026-09-01 00:33",
-   "aktiv": true,
+   "aktiv": false,
    "prishistorikk": [
     {
      "dato": "2026-09-01",
@@ -74011,7 +74051,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475211071",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -74029,7 +74069,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475211320",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -74047,7 +74087,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475207491",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -74065,7 +74105,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475207380",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -74083,7 +74123,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472898032",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -74101,7 +74141,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472897717",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -74119,7 +74159,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475203065",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -74137,7 +74177,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475249623",
    "publisert": "2026-09-01",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -74155,7 +74195,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475243806",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -74173,7 +74213,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475243613",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -74191,7 +74231,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/425545615",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -74209,7 +74249,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475232524",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -74227,7 +74267,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475217997",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -74245,7 +74285,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472898650",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -74263,7 +74303,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472858400",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -74281,7 +74321,7 @@
    "url": "https://www.finn.no/recommerce/forsale/item/472850318",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
@@ -74299,12 +74339,156 @@
    "url": "https://www.finn.no/recommerce/forsale/item/475192851",
    "publisert": "2026-08-31",
    "forst_sett": "2026-09-01 00:33",
-   "sist_sett": "2026-09-01 00:33",
+   "sist_sett": "2026-09-01 11:46",
    "aktiv": true,
    "prishistorikk": [
     {
      "dato": "2026-09-01",
      "pris": 200
+    }
+   ]
+  },
+  "475269938": {
+   "finnkode": "475269938",
+   "tittel": "Garmin VQ1",
+   "modell": "Annet",
+   "pris": 500,
+   "sted": "Oslo",
+   "url": "https://www.finn.no/recommerce/forsale/item/475269938",
+   "publisert": "2026-09-01",
+   "forst_sett": "2026-09-01 11:46",
+   "sist_sett": "2026-09-01 11:46",
+   "aktiv": true,
+   "prishistorikk": [
+    {
+     "dato": "2026-09-01",
+     "pris": 500
+    }
+   ]
+  },
+  "450489425": {
+   "finnkode": "450489425",
+   "tittel": "Garmin Venu 3S smartklokke grå",
+   "modell": "Venu 3",
+   "pris": 3000,
+   "sted": "Bergen",
+   "url": "https://www.finn.no/recommerce/forsale/item/450489425",
+   "publisert": "2026-09-01",
+   "forst_sett": "2026-09-01 11:46",
+   "sist_sett": "2026-09-01 11:46",
+   "aktiv": true,
+   "prishistorikk": [
+    {
+     "dato": "2026-09-01",
+     "pris": 3000
+    }
+   ]
+  },
+  "475262134": {
+   "finnkode": "475262134",
+   "tittel": "Garmin Fenix 7 Sapphire Solar Titanium 47 mm",
+   "modell": "Fenix 7",
+   "pris": 3495,
+   "sted": "Sandnes",
+   "url": "https://www.finn.no/recommerce/forsale/item/475262134",
+   "publisert": "2026-09-01",
+   "forst_sett": "2026-09-01 11:46",
+   "sist_sett": "2026-09-01 11:46",
+   "aktiv": true,
+   "prishistorikk": [
+    {
+     "dato": "2026-09-01",
+     "pris": 3495
+    }
+   ]
+  },
+  "475260332": {
+   "finnkode": "475260332",
+   "tittel": "Apple Watch Ultra (1. gen) – pent brukt, 87 % batteri",
+   "modell": "Annet",
+   "pris": 3500,
+   "sted": "Kristiansand S",
+   "url": "https://www.finn.no/recommerce/forsale/item/475260332",
+   "publisert": "2026-09-01",
+   "forst_sett": "2026-09-01 11:46",
+   "sist_sett": "2026-09-01 11:46",
+   "aktiv": true,
+   "prishistorikk": [
+    {
+     "dato": "2026-09-01",
+     "pris": 3500
+    }
+   ]
+  },
+  "475259046": {
+   "finnkode": "475259046",
+   "tittel": "Garmin Fenix 6X Sapphire 51 mm. GPS-klokke carbon gray DLC med sort rem",
+   "modell": "Fenix 6",
+   "pris": 2400,
+   "sted": "Rakkestad",
+   "url": "https://www.finn.no/recommerce/forsale/item/475259046",
+   "publisert": "2026-09-01",
+   "forst_sett": "2026-09-01 11:46",
+   "sist_sett": "2026-09-01 11:46",
+   "aktiv": true,
+   "prishistorikk": [
+    {
+     "dato": "2026-09-01",
+     "pris": 2400
+    }
+   ]
+  },
+  "475257744": {
+   "finnkode": "475257744",
+   "tittel": "Garmin Fenix 5S Plus sapphire edition, smartklokke hvit/roségull",
+   "modell": "Fenix 5",
+   "pris": 1500,
+   "sted": "Heidal",
+   "url": "https://www.finn.no/recommerce/forsale/item/475257744",
+   "publisert": "2026-09-01",
+   "forst_sett": "2026-09-01 11:46",
+   "sist_sett": "2026-09-01 11:46",
+   "aktiv": true,
+   "prishistorikk": [
+    {
+     "dato": "2026-09-01",
+     "pris": 1500
+    }
+   ]
+  },
+  "475256506": {
+   "finnkode": "475256506",
+   "tittel": "Garmin Fenix 8 AMOLED 47mm",
+   "modell": "Fenix 8",
+   "pris": 7250,
+   "sted": "Høvik",
+   "url": "https://www.finn.no/recommerce/forsale/item/475256506",
+   "publisert": "2026-09-01",
+   "forst_sett": "2026-09-01 11:46",
+   "sist_sett": "2026-09-01 11:46",
+   "aktiv": true,
+   "prishistorikk": [
+    {
+     "dato": "2026-09-01",
+     "pris": 7250
+    }
+   ]
+  },
+  "475252610": {
+   "finnkode": "475252610",
+   "tittel": "Garmin Fenix 7 Pro Sapphire Solar smartklokke svart",
+   "modell": "Fenix 7",
+   "pris": 6500,
+   "sted": "Oslo",
+   "url": "https://www.finn.no/recommerce/forsale/item/475252610",
+   "publisert": "2026-09-01",
+   "forst_sett": "2026-09-01 11:46",
+   "sist_sett": "2026-09-01 11:46",
+   "aktiv": true,
+   "prishistorikk": [
+    {
+     "dato": "2026-09-01",
+     "pris": 6500
     }
    ]
   }
