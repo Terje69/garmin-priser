@@ -16416,10 +16416,15 @@
    "p10": 6790,
    "antall": 1
   },
+  "Epix": {
+   "median": 5100,
+   "p10": 5020,
+   "antall": 2
+  },
   "Epix 2": {
-   "median": 4999,
-   "p10": 3720,
-   "antall": 9
+   "median": 4997,
+   "p10": 3630,
+   "antall": 8
   },
   "Epix 5": {
    "median": 4500,
@@ -16439,7 +16444,7 @@
   "Fenix 5": {
    "median": 1000,
    "p10": 750,
-   "antall": 24
+   "antall": 23
   },
   "Fenix 6": {
    "median": 2000,
@@ -16454,7 +16459,7 @@
   "Fenix 8": {
    "median": 8000,
    "p10": 7000,
-   "antall": 36
+   "antall": 35
   },
   "Forerunner": {
    "median": 1250,
@@ -16483,8 +16488,8 @@
   },
   "Forerunner 245": {
    "median": 1175,
-   "p10": 710,
-   "antall": 12
+   "p10": 700,
+   "antall": 10
   },
   "Forerunner 255": {
    "median": 1875,
@@ -16492,9 +16497,9 @@
    "antall": 14
   },
   "Forerunner 265": {
-   "median": 3125,
-   "p10": 2780,
-   "antall": 8
+   "median": 3000,
+   "p10": 2500,
+   "antall": 9
   },
   "Forerunner 45": {
    "median": 500,
@@ -16502,14 +16507,14 @@
    "antall": 1
   },
   "Forerunner 55": {
-   "median": 1075,
-   "p10": 889,
+   "median": 1125,
+   "p10": 900,
    "antall": 10
   },
   "Forerunner 570": {
-   "median": 4350,
-   "p10": 4310,
-   "antall": 2
+   "median": 4400,
+   "p10": 4320,
+   "antall": 3
   },
   "Forerunner 645": {
    "median": 1480,
@@ -16528,8 +16533,8 @@
   },
   "Forerunner 745": {
    "median": 1000,
-   "p10": 960,
-   "antall": 7
+   "p10": 950,
+   "antall": 6
   },
   "Forerunner 920": {
    "median": 720,
@@ -16552,19 +16557,19 @@
    "antall": 7
   },
   "Forerunner 965": {
-   "median": 4394,
-   "p10": 3820,
-   "antall": 12
+   "median": 4500,
+   "p10": 4000,
+   "antall": 11
   },
   "Forerunner 970": {
-   "median": 5900,
+   "median": 6000,
    "p10": 5660,
    "antall": 7
   },
   "Instinct": {
-   "median": 990,
-   "p10": 728,
-   "antall": 5
+   "median": 955,
+   "p10": 725,
+   "antall": 6
   },
   "Instinct 2": {
    "median": 1900,
@@ -16607,9 +16612,9 @@
    "antall": 3
   },
   "Venu 2": {
-   "median": 1000,
-   "p10": 940,
-   "antall": 5
+   "median": 1300,
+   "p10": 950,
+   "antall": 6
   },
   "Venu 3": {
    "median": 3100,
@@ -16617,9 +16622,9 @@
    "antall": 12
   },
   "Venu 4": {
-   "median": 4350,
-   "p10": 4230,
-   "antall": 2
+   "median": 4200,
+   "p10": 4200,
+   "antall": 1
   },
   "Venu SQ 2": {
    "median": 1200,
