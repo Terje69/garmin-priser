@@ -22941,9 +22941,9 @@
  },
  "2026-10-06": {
   "Approach": {
-   "median": 3300,
-   "p10": 1100,
-   "antall": 5
+   "median": 4050,
+   "p10": 1225,
+   "antall": 6
   },
   "Enduro": {
    "median": 2500,
@@ -22955,9 +22955,14 @@
    "p10": 6200,
    "antall": 1
   },
+  "Epix": {
+   "median": 1990,
+   "p10": 1990,
+   "antall": 1
+  },
   "Epix 2": {
    "median": 4420,
-   "p10": 2725,
+   "p10": 2575,
    "antall": 6
   },
   "Fenix": {
@@ -22982,28 +22987,28 @@
   },
   "Fenix 6": {
    "median": 2000,
-   "p10": 1360,
-   "antall": 27
+   "p10": 1270,
+   "antall": 28
   },
   "Fenix 7": {
    "median": 4500,
-   "p10": 3070,
+   "p10": 3170,
    "antall": 48
   },
   "Fenix 8": {
-   "median": 7500,
-   "p10": 6500,
-   "antall": 63
+   "median": 7700,
+   "p10": 6510,
+   "antall": 62
   },
   "Fenix 9": {
    "median": 10490,
-   "p10": 9936,
-   "antall": 5
+   "p10": 8740,
+   "antall": 7
   },
   "Forerunner": {
    "median": 800,
-   "p10": 600,
-   "antall": 11
+   "p10": 590,
+   "antall": 10
   },
   "Forerunner 165": {
    "median": 1800,
@@ -23011,9 +23016,9 @@
    "antall": 13
   },
   "Forerunner 170": {
-   "median": 3100,
-   "p10": 2620,
-   "antall": 2
+   "median": 3000,
+   "p10": 2600,
+   "antall": 3
   },
   "Forerunner 235": {
    "median": 650,
@@ -23021,14 +23026,14 @@
    "antall": 4
   },
   "Forerunner 245": {
-   "median": 838,
+   "median": 875,
    "p10": 700,
    "antall": 18
   },
   "Forerunner 255": {
-   "median": 1895,
+   "median": 1995,
    "p10": 1500,
-   "antall": 14
+   "antall": 12
   },
   "Forerunner 265": {
    "median": 3050,
@@ -23041,14 +23046,14 @@
    "antall": 6
   },
   "Forerunner 55": {
-   "median": 1000,
+   "median": 1050,
    "p10": 695,
    "antall": 10
   },
   "Forerunner 570": {
-   "median": 3999,
-   "p10": 3396,
-   "antall": 5
+   "median": 4000,
+   "p10": 3495,
+   "antall": 6
   },
   "Forerunner 645": {
    "median": 825,
@@ -23061,9 +23066,9 @@
    "antall": 1
   },
   "Forerunner 745": {
-   "median": 1125,
-   "p10": 925,
-   "antall": 6
+   "median": 1250,
+   "p10": 970,
+   "antall": 5
   },
   "Forerunner 910": {
    "median": 500,
@@ -23071,9 +23076,9 @@
    "antall": 1
   },
   "Forerunner 935": {
-   "median": 874,
-   "p10": 709,
-   "antall": 4
+   "median": 850,
+   "p10": 689,
+   "antall": 3
   },
   "Forerunner 945": {
    "median": 1350,
@@ -23091,24 +23096,34 @@
    "antall": 1
   },
   "Forerunner 965": {
-   "median": 4200,
+   "median": 4350,
    "p10": 3500,
-   "antall": 13
+   "antall": 12
   },
   "Forerunner 970": {
-   "median": 7300,
-   "p10": 5800,
-   "antall": 7
+   "median": 6750,
+   "p10": 5500,
+   "antall": 8
+  },
+  "Instinct": {
+   "median": 5000,
+   "p10": 5000,
+   "antall": 1
   },
   "Instinct 2": {
-   "median": 1700,
-   "p10": 1200,
-   "antall": 4
+   "median": 2200,
+   "p10": 1400,
+   "antall": 3
   },
   "Instinct 3": {
    "median": 3750,
    "p10": 3150,
    "antall": 2
+  },
+  "Lily": {
+   "median": 1200,
+   "p10": 1200,
+   "antall": 1
   },
   "Lily 2": {
    "median": 3000,
@@ -23136,14 +23151,14 @@
    "antall": 2
   },
   "Venu 2": {
-   "median": 1500,
-   "p10": 1000,
-   "antall": 5
+   "median": 1250,
+   "p10": 975,
+   "antall": 6
   },
   "Venu 3": {
-   "median": 2650,
-   "p10": 1980,
-   "antall": 10
+   "median": 2800,
+   "p10": 2000,
+   "antall": 11
   },
   "Venu 4": {
    "median": 4450,
@@ -23156,29 +23171,29 @@
    "antall": 2
   },
   "Vivoactive 3": {
-   "median": 500,
-   "p10": 500,
-   "antall": 1
+   "median": 1250,
+   "p10": 650,
+   "antall": 2
   },
   "Vivoactive 4": {
-   "median": 1999,
-   "p10": 880,
-   "antall": 3
+   "median": 1850,
+   "p10": 850,
+   "antall": 2
   },
   "Vivoactive 5": {
-   "median": 1900,
-   "p10": 1240,
-   "antall": 5
+   "median": 1600,
+   "p10": 1230,
+   "antall": 4
   },
   "Vivoactive 6": {
-   "median": 2450,
-   "p10": 2100,
-   "antall": 5
+   "median": 2500,
+   "p10": 2460,
+   "antall": 3
   },
   "Vivomove": {
-   "median": 1325,
-   "p10": 1065,
-   "antall": 2
+   "median": 1000,
+   "p10": 1000,
+   "antall": 1
   }
  }
 }
