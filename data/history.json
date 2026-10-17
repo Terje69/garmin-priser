@@ -25648,9 +25648,9 @@
  },
  "2026-10-17": {
   "Approach": {
-   "median": 3875,
-   "p10": 2900,
-   "antall": 6
+   "median": 3950,
+   "p10": 2920,
+   "antall": 7
   },
   "Descent": {
    "median": 13000,
@@ -25683,9 +25683,9 @@
    "antall": 1
   },
   "Fenix 5": {
-   "median": 800,
-   "p10": 610,
-   "antall": 13
+   "median": 825,
+   "p10": 655,
+   "antall": 12
   },
   "Fenix 6": {
    "median": 1900,
@@ -25695,17 +25695,17 @@
   "Fenix 7": {
    "median": 4000,
    "p10": 3000,
-   "antall": 42
+   "antall": 44
   },
   "Fenix 8": {
    "median": 7500,
-   "p10": 6500,
+   "p10": 6400,
    "antall": 59
   },
   "Fenix 9": {
    "median": 12000,
-   "p10": 10040,
-   "antall": 12
+   "p10": 9990,
+   "antall": 11
   },
   "Forerunner": {
    "median": 890,
@@ -25738,9 +25738,9 @@
    "antall": 11
   },
   "Forerunner 265": {
-   "median": 2999,
-   "p10": 2636,
-   "antall": 15
+   "median": 2974,
+   "p10": 2645,
+   "antall": 16
   },
   "Forerunner 45": {
    "median": 1000,
@@ -25761,11 +25761,6 @@
    "median": 900,
    "p10": 500,
    "antall": 5
-  },
-  "Forerunner 70": {
-   "median": 1500,
-   "p10": 1500,
-   "antall": 1
   },
   "Forerunner 745": {
    "median": 1100,
@@ -25808,19 +25803,19 @@
    "antall": 7
   },
   "Instinct": {
-   "median": 1000,
-   "p10": 840,
-   "antall": 3
+   "median": 900,
+   "p10": 820,
+   "antall": 2
   },
   "Instinct 2": {
-   "median": 2000,
-   "p10": 2000,
-   "antall": 1
+   "median": 1975,
+   "p10": 1955,
+   "antall": 2
   },
   "Instinct 3": {
-   "median": 4200,
-   "p10": 3440,
-   "antall": 2
+   "median": 5150,
+   "p10": 5150,
+   "antall": 1
   },
   "MARQ": {
    "median": 13950,
@@ -25828,9 +25823,9 @@
    "antall": 2
   },
   "Tactix": {
-   "median": 4025,
-   "p10": 3205,
-   "antall": 2
+   "median": 3000,
+   "p10": 3000,
+   "antall": 1
   },
   "Tactix 7": {
    "median": 6900,
@@ -25848,14 +25843,14 @@
    "antall": 4
   },
   "Venu 3": {
-   "median": 2800,
-   "p10": 2380,
-   "antall": 5
+   "median": 2900,
+   "p10": 2400,
+   "antall": 6
   },
   "Venu 4": {
-   "median": 3900,
-   "p10": 3580,
-   "antall": 3
+   "median": 3750,
+   "p10": 3550,
+   "antall": 2
   },
   "Venu SQ": {
    "median": 600,
