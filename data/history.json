@@ -32097,13 +32097,18 @@
  },
  "2026-11-13": {
   "Approach": {
-   "median": 1350,
-   "p10": 1060,
-   "antall": 4
+   "median": 1500,
+   "p10": 1080,
+   "antall": 5
   },
   "Descent": {
    "median": 6490,
    "p10": 6490,
+   "antall": 1
+  },
+  "Enduro": {
+   "median": 1500,
+   "p10": 1500,
    "antall": 1
   },
   "Enduro 2": {
@@ -32134,22 +32139,22 @@
   "Fenix 5": {
    "median": 800,
    "p10": 500,
-   "antall": 24
+   "antall": 23
   },
   "Fenix 6": {
-   "median": 1895,
-   "p10": 1430,
-   "antall": 34
+   "median": 1900,
+   "p10": 1440,
+   "antall": 35
   },
   "Fenix 7": {
    "median": 4000,
-   "p10": 2800,
-   "antall": 34
+   "p10": 2820,
+   "antall": 32
   },
   "Fenix 8": {
-   "median": 7600,
-   "p10": 6300,
-   "antall": 39
+   "median": 7500,
+   "p10": 6200,
+   "antall": 41
   },
   "Fenix 9": {
    "median": 10000,
@@ -32204,12 +32209,12 @@
   "Forerunner 55": {
    "median": 999,
    "p10": 600,
-   "antall": 15
+   "antall": 16
   },
   "Forerunner 570": {
-   "median": 3800,
-   "p10": 2840,
-   "antall": 3
+   "median": 3200,
+   "p10": 2720,
+   "antall": 2
   },
   "Forerunner 610": {
    "median": 625,
@@ -32232,7 +32237,7 @@
    "antall": 3
   },
   "Forerunner 745": {
-   "median": 1150,
+   "median": 1100,
    "p10": 686,
    "antall": 10
   },
@@ -32247,14 +32252,14 @@
    "antall": 6
   },
   "Forerunner 955": {
-   "median": 3500,
+   "median": 3350,
    "p10": 2650,
    "antall": 6
   },
   "Forerunner 965": {
-   "median": 3990,
-   "p10": 3310,
-   "antall": 17
+   "median": 3945,
+   "p10": 3300,
+   "antall": 16
   },
   "Forerunner 970": {
    "median": 5900,
@@ -32272,9 +32277,9 @@
    "antall": 2
   },
   "Instinct 3": {
-   "median": 3750,
-   "p10": 3550,
-   "antall": 2
+   "median": 3500,
+   "p10": 3500,
+   "antall": 1
   },
   "MARQ": {
    "median": 9000,
@@ -32297,9 +32302,9 @@
    "antall": 6
   },
   "Venu 3": {
-   "median": 2600,
+   "median": 2500,
    "p10": 2000,
-   "antall": 12
+   "antall": 14
   },
   "Venu 4": {
    "median": 4000,
